@@ -1,0 +1,14 @@
+---
+title: "Preface"
+---
+
+These notes summarise the Academy for PhD Training in Statistics (APTS)
+module "Statistical Machine Learning" taught by Louis J.M. Aslett from
+13th to 17th September 2021 [@aslett2021].
+
+The content aims to give a broad overview of statistical machine learning 
+methods to PhD candidates who already have a good understanding and intuition 
+of statistics.
+    
+Chapters in this document reflect the chapters in the source material
+for easier further reading and comparison.
