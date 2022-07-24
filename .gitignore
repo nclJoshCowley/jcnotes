@@ -48,3 +48,7 @@ po/*~
 
 ### Project specific
 *_subsite/
+
+### Quarto-specific
+*/.quarto/
+_book/
