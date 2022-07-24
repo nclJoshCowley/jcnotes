@@ -1,0 +1,8 @@
+# Motivation {.unnumbered}
+
+There notes are considered an introduction to Python from an already 
+established programming background such as R.
+
+More detailed reading can be found at the *raison d'etre* for these notes, a
+introductory Udemy course [@udemy2021] and a module I have assisted in,
+MAS1803: Problem Solving with Python [@mas1803python2021].
