@@ -17,7 +17,7 @@ book:
     - chapters/06-trees-forests.qmd
     - chapters/07-model-assessment.qmd
     - chapters/08-ml-pipelines.qmd
-    - references.qmd
+    - chapters/references.qmd
 
 bibliography: Statisical-ML.bib
 
