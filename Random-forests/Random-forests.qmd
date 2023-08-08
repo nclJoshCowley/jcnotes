@@ -1,0 +1,199 @@
+---
+title: "Random Forest Notes"
+author: "Josh Cowley"
+date: 2023-08-05
+bibliography: "Random-forests.bib"
+nocite: "@*"
+self-contained: true
+---
+
+\DeclareMathOperator{\Imp}{Imp}
+
+## Aims
+
+Notes in this document aim to summarise and expand my knowledge of the random
+forest model for the purposes of my PhD thesis.
+
+## Classification and Regression Trees (CART)
+
+Originally proposed in @breiman1984classification.
+
+Instability is a major drawback is the of these broadly applicable methods.
+
+Main objectives of these models include
+
+* prediction,
+
+* selection (importance) of variables.
+
+### Visualisation
+
+A single tree can be visualised as a binary tree with
+
+* the node at the top is the *root*,
+
+* each terminating node are *leaves*,
+
+* each splitting node are labelled by a condition (say, `x_1 < 2`),
+
+  * by convention, the route left corresponds with a true condition.
+
+For example, see Figure 2.4 of @genuer2020random.
+
+![**Fig. 2.4** Classiﬁcation tree obtained with the default values of rpart(), spam data](images/Genuer2020-fig-2-4)
+
+### Maximal Tree Construction
+
+Building a CART requires maximal tree construction and then pruning.
+
+Since a CART is a binary tree, it is recursively partitioning the input space
+into 2 at each split.
+
+A node split usually takes the form
+
+$$
+    \{x_j \leq d\} \cup \{x_j > d\}
+    ,
+$$
+
+which partitions the input space using the $j^{th}$ predictor.
+
+Suppose we are splitting a node $t$ into two nodes, $t_L$ and $t_R$ with
+associated samples size $n_L$ and $n_R$ respectively.
+Since the split forms a partition it follows that $n = n_L + n_R$ denotes
+the total number of samples at the root $t$.
+
+To determine a "best" split, we define a cost function, say $\Imp(t)$, that
+represents impurity.
+
+The aim of each split is to minimise the within-group impurity and so minimise
+the cost function
+$$
+    \frac{n_L}{n} \Imp(t_L) + \frac{n_R}{n} \Imp(t_R)
+$$
+
+Or equivalently, maximise the purity increase of such a split, defined as
+$$
+    \Imp(t)
+    - \left( \frac{n_L}{n} \Imp(t_L) + \frac{n_R}{n} \Imp(t_R) \right)
+    .
+$$
+
+The choice of impurity function is related to the support of the response.
+
+* **regression**: impurity is measured by variance
+  $$
+      V(t) =
+          \frac{1}{n} \sum_{i: x_i \in t}^n (y_i - \bar{y}_t)^2
+      ,
+  $$
+  where the node $t$ has $n$ observations with a mean value of $\bar{y}_t$.
+
+* **classification**: impurity is measured by the Gini index
+  $$
+      \phi(t)
+          = \sum_{c=1}^C \hat{p}_t^c (1 - \hat{p}_t^c)
+      ,
+  $$
+  where $\hat{p}_t^c$ is the proportion of dependent variable observations
+  in class $c \in 1, \dots, C$ at the node $t$.
+
+
+This process of recursively splitting is repeated on each node until a stopping
+condition is met.
+
+For example,
+
+> all observations belong to the same class
+
+or,
+
+> there are less than $m$ observations in each node
+
+### Competing Splits
+
+At each node, we can produce a split for each predictor available, these are
+referred to as competing splits.
+
+The default is to choose the split that will yield the greatest reduction of
+heterogeneity but other factors, such as interpretability could be leveraged
+here.
+
+### Surrogate Splits
+
+We can extend these models to deal with missing data using surrogate splits.
+For more information, see Chapter 2.5.2 of @genuer2020random.
+
+### Pruning
+
+::: {.callout-important}
+##### Definition
+Pruning is a model selection procedure of all pruned subtrees of the maximal
+tree, $T_{\max}$.
+:::
+
+The two extremes reveal why we want a compromise between the two:
+
+1. maximal tree - high variance, low bias,
+
+1. tree consisting only of the root node - low variance, high bias,
+
+Hence, the aim is to reduce the complexity of the final tree and thereby reduce
+the potential for overfitting.
+
+Our aim is with random forests which do not rely on pruning as much and so we
+ignore pruning for now, more information can be found in Chapter 2.3 of
+@genuer2020random.
+
+## Random Forests
+
+Unlike a CART tree that optimises a single predictor "at once", a random forest
+aims to pool a set of predictors.
+This distinction allows RFs to more thoroughly explore the space of all
+possible trees.
+
+The main issue of CART models addressed is their **instability**, the
+sensitivity to the training data.
+
+RF is an ensemble method and so it makes a prediction using a collection of
+
+$$
+    \hat{h}_{\text{RF}}(x)
+        = \frac{1}{q} \sum_{l=1}^q \hat{h}(x, \Theta_l)
+$$
+where $\hat{h}(\cdot, \Theta_1), \dots, \hat{h}(\cdot, \Theta_q)$ are a
+collection of tree predictors with $q$ i.i.d random variables independent
+of the training data.
+
+### Bootstrapping / Bagging
+
+::: {.callout-important}
+##### Definition
+**Bootstrapping** is introduced as the process of sampling **with replacement**
+to obtain a different dataset, still of size $n$, where each observation is
+equally likely to be included.
+:::
+
+We use an developed version of bootstrapping for RF due to its ensemble nature.
+
+::: {.callout-important}
+##### Definition
+**Bagging** (bootstrap aggregating), in RF context, is where each tree
+predictor is based on a distinct bootstrap sample.
+The final estimate is an aggregation of these predictors.
+:::
+
+Multiple types of RF exist, we focus on the variant suggested in
+@breiman2001random that is to be fit in R using `randomForest::randomForest`.
+The nomenclature for this type is Random Forest, Random Input (RF-RI).
+
+That is, we use random input trees (RI) in the place of CART trees.
+
+::: {.callout-important}
+##### Definition
+Random Input (RI) trees are similar to CART but at each node only a subset
+of the predictors can be used and no pruning takes place.
+:::
+
+We often see this written as `mtry` as it is seen in the `randomForest`
+package.
