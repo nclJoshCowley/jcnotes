@@ -8,6 +8,7 @@ self-contained: true
 ---
 
 \DeclareMathOperator{\Imp}{Imp}
+\DeclareMathOperator{\VI}{VI}
 
 ## Aims
 
@@ -156,14 +157,16 @@ The main issue of CART models addressed is their **instability**, the
 sensitivity to the training data.
 
 RF is an ensemble method and so it makes a prediction using a collection of
-
+$n_t$ tree predictors, say
+$\hat{h}(\cdot, \Theta_1), \dots, \hat{h}(\cdot, \Theta_{n_t})$, via
 $$
     \hat{h}_{\text{RF}}(x)
-        = \frac{1}{q} \sum_{l=1}^q \hat{h}(x, \Theta_l)
+        = \frac{1}{n_t}
+          \sum_{l=1}^{n_t} \hat{h}(x, \Theta_l)
+    ,
 $$
-where $\hat{h}(\cdot, \Theta_1), \dots, \hat{h}(\cdot, \Theta_q)$ are a
-collection of tree predictors with $q$ i.i.d random variables independent
-of the training data.
+where $\Theta_j$ are i.i.d random variables, independent of the training data,
+for $j = 1, \dots, n_t$.
 
 ### Bootstrapping / Bagging
 
@@ -197,3 +200,40 @@ of the predictors can be used and no pruning takes place.
 
 We often see this written as `mtry` as it is seen in the `randomForest`
 package.
+
+### Importance
+
+The aim of any importance index is to construct a hierarchy of explanatory
+variables based on their effects on the dependent variable.
+
+RFs are useful for this as they combine a non-parametric method with resampling
+while making no assumption about the relationship between Y and X.
+
+::: {.callout-important}
+##### Variable Importance (Type 1)
+Suppose we have a out-of-sample or out-of-bag (OOB) subset of the data defined
+as all observations that were not included in the bootstrap sample.
+
+We define
+$$
+    \VI(\boldsymbol{x}_j)
+        = \frac{1}{n_t} \sum_{l = 1}^{n_t} \left(
+            \widetilde{\text{error}}(OOB)_l^j - \text{error}(OOB)_l
+        \right)
+    ,
+$$
+where $\text{error}(OOB)_l$ is the OOB error for tree $l$;
+$\widetilde{\text{error}}(OOB)_l^j$ is the OOB error after the values for the
+$j^{th}$ variable have been permuted.
+:::
+
+Note this is how `randomForest` works but there are nuanced differences between
+this definition and @breiman2001random.
+
+
+::: {.callout-important}
+##### Variable Importance (Type 2)
+**Mean Decrease Impurity (MDI)** of some predictor $\bm{x}_j$ is the sum of
+impurity decreases for all nodes that used the $j^{th}$ predictor to split
+with weighting based on the proportion in that node.
+:::
