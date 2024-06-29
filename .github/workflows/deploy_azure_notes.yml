@@ -21,6 +21,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: Azure
+          path: azure
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
