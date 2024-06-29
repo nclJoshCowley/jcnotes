@@ -1,0 +1,33 @@
+project:
+  type: book
+
+execute:
+  freeze: auto
+
+book:
+  title: "Azure"
+  author: "[Josh Cowley](mailto:josh.cowley@hotmail.com)"
+  date: today
+
+  repo-url: https://github.com/nclJoshCowley/jcnotes/azure
+
+  sidebar:
+    search: true
+    tools:
+      - icon: envelope
+        href: mailto:josh.cowley@hotmail.com
+
+
+  chapters:
+    - index.qmd
+    - part: "Azure Fundamentals"
+      chapters:
+        - content/az900_azure_fundamentals/az900_01_cloud_concepts.qmd
+        - content/az900_azure_fundamentals/az900_02_cloud_benefits.qmd
+        - content/az900_azure_fundamentals/az900_03_cloud_service_types.qmd
+
+format:
+  html:
+    theme: pulse
+    number-sections: false
+    toc: true
