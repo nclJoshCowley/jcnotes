@@ -1,0 +1,47 @@
+# Describe Cloud Service Types
+
+::: {.callout-note}
+## Source
+<https://learn.microsoft.com/en-gb/training/modules/describe-cloud-service-types/>
+:::
+
+
+## Introduction
+
+We cover each of the already mentioned shared responsibility models.
+
+![Diagram showing the responsibilities of the shared responsibility model.](https://learn.microsoft.com/en-gb/training/wwl-azure/describe-cloud-compute/media/shared-responsibility-b3829bfe.svg){#fig-shared-responsibility-model}
+
+
+## Describe Infrastructure as a Service (IaaS)
+
+The most flexible option, IaaS, allows for the most control over resources.
+A entity providing IaaS is responsible for hardware maintenance, physical
+    security and internet connectivity.
+All configurations are the responsibility of the customer including operating
+    systems and database configuration to mention a few.
+
+Such a system may make the most sense when existing infrastructure, such as 
+    on-premises resources or knowledgeable staff, already exist and require
+    scaling.
+
+
+## Describe Platform as a Service (PaaS)
+
+When a cloud provider is also in charge of operating systems,
+    database configurations and potentially network security, this can be more
+    aptly described as PaaS.
+
+These agreements are more common in development frameworks where developers
+    within the customer entity may modify or extend existing cloud-based
+    solutions.
+
+
+## Describe Software as a Service (SaaS)
+
+The most complete product, SaaS. places the most responsibility on the cloud
+    provider.
+Email is a good example as the technical details such as where and how to store
+    messages are covered by the vendor.
+
+

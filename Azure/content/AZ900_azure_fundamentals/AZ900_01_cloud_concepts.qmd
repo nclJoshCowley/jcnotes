@@ -1,0 +1,86 @@
+# Describe Cloud Concepts
+
+::: {.callout-note}
+## Source
+<https://learn.microsoft.com/en-gb/training/modules/describe-cloud-compute/>
+:::
+
+
+## What is Cloud Computing
+
+Cloud computing is delivery of computing services including
+
+* virtual machines (VMs),
+
+* storage,
+
+* databases,
+
+* Internet of Things (IoT),
+
+* Machine Learning (ML),
+
+* Artificial Intelligence (AI).
+
+The benefits of this approach is to allow scaling up and down to meet demand.
+
+
+## Shared Responsibility Model
+
+Consider a consumer of cloud service provider.
+Responsibility of maintenance and security of computational equipment
+    can be classified as
+
+* **Consumer Responsibility**:
+  on-premises equipment is maintained by consumer's IT department,
+
+* **Shared Responsibility**:
+  cloud provider responsible for physical systems stored separate to consumer's
+  location; consumer responsible for data stored on servers and access
+  security.
+
+These shifts vary by situation and motivate these terms to be defined later.
+
+* Infrastructure as a Service (IaaS),
+
+* Platform as a Service (Paas),
+
+* Software as a Service (Saas).
+
+Shared responsibility model is best seen in @fig-shared-responsibility-model.
+
+
+## Cloud Models
+
+Cloud models, determining the type of resources available, are classified into
+    three main groups
+
+1. **Private**: owned and used by a single entity, greater cost and benefits
+  the few,
+
+2. **Public**: controlled by a third-party and anyone can purchase compute,
+
+3. **Hybrid**: combination of the two for advantages of both, public works for
+   surge demand and private brings extra security.
+
+One could also include a multi-cloud type where several public cloud models
+    are combined.
+
+Azure provides a solution for varying business contexts,
+
+> Azure Arc is a set of technologies that helps manage your cloud environment.
+
+
+## Consumption-based Model
+
+Consider two types of business expenditure, captial expenditure (CapEx) and
+    operational expenditure (OpEx).
+Cloud computing can be an example of OpEx as you only pay for what you use and
+    there are usually no upfront costs.
+This allows you to
+
+> 1. Plan and manage your operating costs.
+>
+> 1. Run your infrastructure more efficiently.
+>
+> 1. Scale as your business needs change.
