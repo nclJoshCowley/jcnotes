@@ -5,14 +5,13 @@ book:
   title: "Python Basics"
   author: "Josh Cowley"
   search: true
-  repo-url: https://github.com/nclJoshCowley/jcnotes/Statistical-ML
-  repo-actions: [source]
+  repo-url: https://github.com/nclJoshCowley/jcnotes/python_basics
   chapters:
     - index.qmd
-    - chapters/01-basics.qmd
+    - chapters/01_basics.qmd
     - chapters/references.qmd
 
-bibliography: Python-basics.bib
+bibliography: python_basics.bib
 
 format:
   html:

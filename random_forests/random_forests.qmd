@@ -2,7 +2,7 @@
 title: "Random Forest Notes"
 author: "Josh Cowley"
 date: 2023-08-05
-bibliography: "Random-forests.bib"
+bibliography: "random_forests.bib"
 nocite: "@*"
 self-contained: true
 ---

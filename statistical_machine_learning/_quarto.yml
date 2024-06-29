@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Statistical Machine Learning"
+  subtitle: "APTS 2021, Oxford"
+  author: "Josh Cowley"
+  search: true
+  repo-url: https://github.com/nclJoshCowley/jcnotes/statistical_machine_learning
+  chapters:
+    - index.qmd
+    - chapters/02_intro.qmd
+    - chapters/03_supervised_learning.qmd
+    - chapters/04_local_methods.qmd
+    - chapters/05_error_estimation.qmd
+    - chapters/06_trees_forests.qmd
+    - chapters/07_model_assessment.qmd
+    - chapters/08_ml_pipelines.qmd
+    - chapters/references.qmd
+
+bibliography: statistical_machine_learning.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    pdf-engine: pdflatex
+    documentclass: scrreprt
+    include-in-header:
+      - header.tex
