@@ -4,97 +4,184 @@
     "href": "index.html",
     "title": "Azure",
     "section": "",
-    "text": "Overview\nPersonal notes covering cloud computing in general, with a focus on Azure, developed and sold by Microsoft."
+    "text": "Overview\nPersonal notes covering cloud computing in general, with a focus on Azure, developed and sold by Microsoft.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
     "objectID": "index.html#azure-fundamentals-az900",
     "href": "index.html#azure-fundamentals-az900",
     "title": "Azure",
     "section": "Azure Fundamentals (AZ900)",
-    "text": "Azure Fundamentals (AZ900)\nWe start with a certification from Microsoft where the learning material is free but the examination has a cost.\nMore information at Microsoft Certified: Azure Fundamentals."
+    "text": "Azure Fundamentals (AZ900)\nWe start with a certification from Microsoft where the learning material is free but the examination has a cost.\nMore information at Microsoft Certified: Azure Fundamentals.",
+    "crumbs": [
+      "Overview"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#what-is-cloud-computing",
-    "href": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#what-is-cloud-computing",
+    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html",
+    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html",
     "title": "Describe Cloud Concepts",
-    "section": "What is Cloud Computing",
-    "text": "What is Cloud Computing\nCloud computing is delivery of computing services including\n\nvirtual machines (VMs),\nstorage,\ndatabases,\nInternet of Things (IoT),\nMachine Learning (ML),\nArtificial Intelligence (AI).\n\nThe benefits of this approach is to allow scaling up and down to meet demand."
+    "section": "",
+    "text": "What is Cloud Computing\nCloud computing is delivery of computing services including\nThe benefits of this approach is to allow scaling up and down to meet demand.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#shared-responsibility-model",
-    "href": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#shared-responsibility-model",
+    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#what-is-cloud-computing",
+    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#what-is-cloud-computing",
+    "title": "Describe Cloud Concepts",
+    "section": "",
+    "text": "virtual machines (VMs),\nstorage,\ndatabases,\nInternet of Things (IoT),\nMachine Learning (ML),\nArtificial Intelligence (AI).",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#shared-responsibility-model",
+    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#shared-responsibility-model",
     "title": "Describe Cloud Concepts",
     "section": "Shared Responsibility Model",
-    "text": "Shared Responsibility Model\nConsider a consumer of cloud service provider. Responsibility of maintenance and security of computational equipment can be classified as\n\nConsumer Responsibility: on-premises equipment is maintained by consumer’s IT department,\nShared Responsibility: cloud provider responsible for physical systems stored separate to consumer’s location; consumer responsible for data stored on servers and access security.\n\nThese shifts vary by situation and motivate these terms to be defined later.\n\nInfrastructure as a Service (IaaS),\nPlatform as a Service (Paas),\nSoftware as a Service (Saas).\n\nShared responsibility model is best seen in Figure 3.1."
+    "text": "Shared Responsibility Model\nConsider a consumer of cloud service provider. Responsibility of maintenance and security of computational equipment can be classified as\n\nConsumer Responsibility: on-premises equipment is maintained by consumer’s IT department,\nShared Responsibility: cloud provider responsible for physical systems stored separate to consumer’s location; consumer responsible for data stored on servers and access security.\n\nThese shifts vary by situation and motivate these terms to be defined later.\n\nInfrastructure as a Service (IaaS),\nPlatform as a Service (Paas),\nSoftware as a Service (Saas).\n\nShared responsibility model is best seen in Figure 3.1.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#cloud-models",
-    "href": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#cloud-models",
+    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#cloud-models",
+    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#cloud-models",
     "title": "Describe Cloud Concepts",
     "section": "Cloud Models",
-    "text": "Cloud Models\nCloud models, determining the type of resources available, are classified into three main groups\n\nPrivate: owned and used by a single entity, greater cost and benefits the few,\nPublic: controlled by a third-party and anyone can purchase compute,\nHybrid: combination of the two for advantages of both, public works for surge demand and private brings extra security.\n\nOne could also include a multi-cloud type where several public cloud models are combined.\nAzure provides a solution for varying business contexts,\n\nAzure Arc is a set of technologies that helps manage your cloud environment."
+    "text": "Cloud Models\nCloud models, determining the type of resources available, are classified into three main groups\n\nPrivate: owned and used by a single entity, greater cost and benefits the few,\nPublic: controlled by a third-party and anyone can purchase compute,\nHybrid: combination of the two for advantages of both, public works for surge demand and private brings extra security.\n\nOne could also include a multi-cloud type where several public cloud models are combined.\nAzure provides a solution for varying business contexts,\n\nAzure Arc is a set of technologies that helps manage your cloud environment.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#consumption-based-model",
-    "href": "content/AZ900_azure_fundamentals/AZ900_01_cloud_concepts.html#consumption-based-model",
+    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#consumption-based-model",
+    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#consumption-based-model",
     "title": "Describe Cloud Concepts",
     "section": "Consumption-based Model",
-    "text": "Consumption-based Model\nConsider two types of business expenditure, captial expenditure (CapEx) and operational expenditure (OpEx). Cloud computing can be an example of OpEx as you only pay for what you use and there are usually no upfront costs. This allows you to\n\n\nPlan and manage your operating costs.\nRun your infrastructure more efficiently.\nScale as your business needs change."
+    "text": "Consumption-based Model\nConsider two types of business expenditure, captial expenditure (CapEx) and operational expenditure (OpEx). Cloud computing can be an example of OpEx as you only pay for what you use and there are usually no upfront costs. This allows you to\n\n\nPlan and manage your operating costs.\nRun your infrastructure more efficiently.\nScale as your business needs change.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#high-availability-and-scalability",
-    "href": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#high-availability-and-scalability",
+    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html",
+    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html",
     "title": "Describe Cloud Benefits",
-    "section": "High Availability and Scalability",
-    "text": "High Availability and Scalability\nAvailability can be defined in terms of uptime, when the sever is available for use, and downtime, not available for use due to maintenance, repairs or upgrades. Many obligations from providers vary between 99% and 99.9% availability, depending on business requirements. Such agreements are laid out in service level agreements (SLAs).\nScalability is the ability to handle surge demand, where traffic will peak for a short time and reduce back to background level after some time. This can be done in two ways\n\nVertical: improving current resources such as CPU compute or RAM,\nHorizontal: including more machines to handle more compute.\n\nHorizontal scaling is made easier with on-demand cloud computing."
+    "section": "",
+    "text": "High Availability and Scalability\nAvailability can be defined in terms of uptime, when the sever is available for use, and downtime, not available for use due to maintenance, repairs or upgrades. Many obligations from providers vary between 99% and 99.9% availability, depending on business requirements. Such agreements are laid out in service level agreements (SLAs).\nScalability is the ability to handle surge demand, where traffic will peak for a short time and reduce back to background level after some time. This can be done in two ways\nHorizontal scaling is made easier with on-demand cloud computing.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#reliability-and-predictability",
-    "href": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#reliability-and-predictability",
+    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#high-availability-and-scalability",
+    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#high-availability-and-scalability",
+    "title": "Describe Cloud Benefits",
+    "section": "",
+    "text": "Vertical: improving current resources such as CPU compute or RAM,\nHorizontal: including more machines to handle more compute.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+    ]
+  },
+  {
+    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#reliability-and-predictability",
+    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#reliability-and-predictability",
     "title": "Describe Cloud Benefits",
     "section": "Reliability and Predictability",
-    "text": "Reliability and Predictability\nReliability, defined as the ability to recover from failures, is a requirement for many frameworks. Decentralised computing offered by cloud services allows for higher resilience from regional catastrophic events.\nWhen using an on-demand service, predictable performance and costs are heavily desired. By deploying to the cloud, with solutions including autoscaling and monitoring, one has a better idea for performance that may impact user experience. Similarly, cost is more predictable thanks to analytics and consistent environments (no paying for a Windows upgrade or stray process)."
+    "text": "Reliability and Predictability\nReliability, defined as the ability to recover from failures, is a requirement for many frameworks. Decentralised computing offered by cloud services allows for higher resilience from regional catastrophic events.\nWhen using an on-demand service, predictable performance and costs are heavily desired. By deploying to the cloud, with solutions including autoscaling and monitoring, one has a better idea for performance that may impact user experience. Similarly, cost is more predictable thanks to analytics and consistent environments (no paying for a Windows upgrade or stray process).",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#security-and-governance",
-    "href": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#security-and-governance",
+    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#security-and-governance",
+    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#security-and-governance",
     "title": "Describe Cloud Benefits",
     "section": "Security and Governance",
-    "text": "Security and Governance\nIn the age of data, governance and security of who can access data is imperative. Cloud computing enables system administrators to update several machines at once through use of policy. Such rules can be fine-tuned to adhere to regulatory requirements and standards including international standards (ISOs).\nFurthermore, as these services are procured over the internet, network security from distributed denial of service (DDoS) or man in the middle attacks should be controlled in advance."
+    "text": "Security and Governance\nIn the age of data, governance and security of who can access data is imperative. Cloud computing enables system administrators to update several machines at once through use of policy. Such rules can be fine-tuned to adhere to regulatory requirements and standards including international standards (ISOs).\nFurthermore, as these services are procured over the internet, network security from distributed denial of service (DDoS) or man in the middle attacks should be controlled in advance.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#manageability",
-    "href": "content/AZ900_azure_fundamentals/AZ900_02_cloud_benefits.html#manageability",
+    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#manageability",
+    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#manageability",
     "title": "Describe Cloud Benefits",
     "section": "Manageability",
-    "text": "Manageability\nManagement of the cloud includes scaling, deploying, health monitoring and setting up alerts for some number of resources. This can be done using a\n\nweb portal,\ncommand line interface (including Powershell),\nAPI."
+    "text": "Manageability\nManagement of the cloud includes scaling, deploying, health monitoring and setting up alerts for some number of resources. This can be done using a\n\nweb portal,\ncommand line interface (including Powershell),\nAPI.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#introduction",
-    "href": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#introduction",
+    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html",
+    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html",
     "title": "Describe Cloud Service Types",
-    "section": "Introduction",
-    "text": "Introduction\nWe cover each of the already mentioned shared responsibility models.\n\n\n\nFigure 3.1: Diagram showing the responsibilities of the shared responsibility model."
+    "section": "",
+    "text": "Introduction\nWe cover each of the already mentioned shared responsibility models.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
-    "href": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
+    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#introduction",
+    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#introduction",
+    "title": "Describe Cloud Service Types",
+    "section": "",
+    "text": "Figure 3.1: Diagram showing the responsibilities of the shared responsibility model.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+    ]
+  },
+  {
+    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
+    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
     "title": "Describe Cloud Service Types",
     "section": "Describe Infrastructure as a Service (IaaS)",
-    "text": "Describe Infrastructure as a Service (IaaS)\nThe most flexible option, IaaS, allows for the most control over resources. A entity providing IaaS is responsible for hardware maintenance, physical security and internet connectivity. All configurations are the responsibility of the customer including operating systems and database configuration to mention a few.\nSuch a system may make the most sense when existing infrastructure, such as on-premises resources or knowledgeable staff, already exist and require scaling."
+    "text": "Describe Infrastructure as a Service (IaaS)\nThe most flexible option, IaaS, allows for the most control over resources. A entity providing IaaS is responsible for hardware maintenance, physical security and internet connectivity. All configurations are the responsibility of the customer including operating systems and database configuration to mention a few.\nSuch a system may make the most sense when existing infrastructure, such as on-premises resources or knowledgeable staff, already exist and require scaling.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
-    "href": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
+    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
+    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
     "title": "Describe Cloud Service Types",
     "section": "Describe Platform as a Service (PaaS)",
-    "text": "Describe Platform as a Service (PaaS)\nWhen a cloud provider is also in charge of operating systems, database configurations and potentially network security, this can be more aptly described as PaaS.\nThese agreements are more common in development frameworks where developers within the customer entity may modify or extend existing cloud-based solutions."
+    "text": "Describe Platform as a Service (PaaS)\nWhen a cloud provider is also in charge of operating systems, database configurations and potentially network security, this can be more aptly described as PaaS.\nThese agreements are more common in development frameworks where developers within the customer entity may modify or extend existing cloud-based solutions.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+    ]
   },
   {
-    "objectID": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-software-as-a-service-saas",
-    "href": "content/AZ900_azure_fundamentals/AZ900_03_cloud_service_types.html#describe-software-as-a-service-saas",
+    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-software-as-a-service-saas",
+    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-software-as-a-service-saas",
     "title": "Describe Cloud Service Types",
     "section": "Describe Software as a Service (SaaS)",
-    "text": "Describe Software as a Service (SaaS)\nThe most complete product, SaaS. places the most responsibility on the cloud provider. Email is a good example as the technical details such as where and how to store messages are covered by the vendor."
+    "text": "Describe Software as a Service (SaaS)\nThe most complete product, SaaS. places the most responsibility on the cloud provider. Email is a good example as the technical details such as where and how to store messages are covered by the vendor.",
+    "crumbs": [
+      "Azure Fundamentals",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+    ]
   }
 ]
