@@ -85,7 +85,7 @@ The choice of impurity function is related to the support of the response.
 * **regression**: impurity is measured by variance
   $$
       V(t) =
-          \frac{1}{n} \sum_{i: x_i \in t}^n (y_i - \bar{y}_t)^2
+          \frac{1}{n} \sum_{i: y_i \in t} (y_i - \bar{y}_t)^2
       ,
   $$
   where the node $t$ has $n$ observations with a mean value of $\bar{y}_t$.
