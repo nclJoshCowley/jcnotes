@@ -1,0 +1,44 @@
+# AM Policy
+
+The Asset Management Policy (AM Policy) is a short document (fewer than 5
+  pages) that will describe the principles and overall approach guiding the
+  AM activities.
+Hence, such a document is a commitment from *top management* that is
+  accompanied by further commitments to continual improvement and periodic
+  review.
+
+## Maturity
+
+We assess the maturity of an asset management department using GFMAM Landscape
+  Subjects.
+These can be found directly from GFMAM, or in the [IAM Anatomy][iam_anatomy]
+  document and associated @fig-subjects
+  
+![GFMAM Landscape Subjects](../../images/gfmam_subjects.png){#fig-subjects}
+
+Note that these are coloured with the 10-box colour model and not the 6-box
+  conceptual model shown in @fig-6box.
+  
+For maturiy, each subject is quantified on a 5-point scale,
+
+* **0: Incompetent**
+
+* **1: Aware**
+
+* **2: Developing**
+
+* **3: Competent**
+
+* **4: Effective**
+
+* **5: Excellent**
+
+Note that maturity of each subject can decline if neglected and the ultimate
+  goal is to not have maximum scores in all subjects as this is likely
+  short-lived, difficult to maintain and not cost effective.
+
+
+<!-- Links -->
+
+[iam_anatomy]:
+https://theiam.org/knowledge-library/asset-management-an-anatomy/

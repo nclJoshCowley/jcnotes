@@ -1,0 +1,41 @@
+# Overview {.unnumbered}
+
+Revision material provided to assist in understanding the content within
+  the [IAM Certificate][iam_cert] provided by the Institute of Asset
+  Management (IAM).
+
+## Course Structure
+
+The associated exam, "Principles of Asset Management" is partitioned into 5
+  modules with questions weighted for each; 20 questions for M1 and 10
+  questions each for M2 through M5.
+  
+This revision guide mirrors the four chapters C1, C2, C3 and C4 that were
+  supplied by the endorsed trainer.
+That is,
+
+* C1: Alignment, Asset Management Policies and Strategies
+
+* C2: Risk Management, Outsourcing and Review
+
+* C3: Whole Life Costing and the Asset Management Plan
+
+* C4: Optimising Lifecycle Activities
+
+## ISO Standards
+
+The following ISO standards are relevant to these materials.
+
+* **ISO 55000**. Definitions 
+
+* **ISO 55001**. Requirements
+
+* **ISO 55002**. Guidelines
+
+* **ISO 31000**. Risk Management Guidelines
+
+
+<!-- Links -->
+
+[iam_cert]:
+https://theiam.org/professional-development/qualifications/iam-certificate/

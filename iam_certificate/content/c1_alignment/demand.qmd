@@ -1,0 +1,60 @@
+# Demand Analysis
+
+For an asset manager to understand how to meet certain objectives, it is
+  crucial that they understand the future demand of the business.
+  
+Furthermore, these objectives will change over time due to shifting priorities
+  that are set by *top managers*.
+We have three key priorities that exist in a balancing act as one can't
+  maximise all three at the same time.
+  
+* **Cost**
+
+* **Risk**
+
+* **Performance**
+
+For example, high-performance activities with managed risk are not going to be
+  cheap.
+Similarly, being cost effective while still managing risk will likely impact
+  performance.
+
+Typically, the focus will cycle between each of these due to a recency bias
+  shifting objectives to the next priority
+  (Cost $\implies$ Risk $\implies$ Performance).
+  
+
+## Risk Appetite
+
+Risk is discussed in more detail within C2, but it is relevant here to
+  distingiush between 
+  
+::: {.callout-note}
+## Definition
+**Risk appetite**, the level of risk one is comfortable with,
+:::
+
+and
+
+::: {.callout-note}
+## Definition
+**Risk tolerance**, the level of risk one can survive.
+:::
+
+As with many concepts, these levels may change depending on the context.
+
+## Changes in Demand
+
+Once we can understand the climate which our asset portfolio exists, we can
+  begin predicting demand using a variety of techniques.
+  
+In the face of increasing demand, we may opt for
+
+* **Operational** options that can slightly increase capacity as a short-term
+  action,
+  
+* **Capital** enhancement to increase the permanent capacity of our assets, 
+
+To make these decision, *top management* must be informed on all the options,
+  costs, and risk involved while also giving feedback about objectives, targets,
+  and risk appetite to the asset manager.

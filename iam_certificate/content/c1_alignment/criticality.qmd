@@ -1,0 +1,33 @@
+# Criticality
+
+Criticality is a measure of how important an asset is to the usual operations
+  of a company.
+
+At the most basic level, this can be identifying the most important assets.
+Beyond this, we may include likelihood of failure in this calculation.
+Best practise is to use *total business impact*.
+
+::: {.callout-note}
+## Definition (Loose)
+**Total Business Impact** can be viewed as the sum of spend
+  (renewal, planned and reactive maintenance) and risk cost.
+:::
+
+We quantify risk as $\text{Likelihood} \times {\text{Consequence}}$ in C2.
+
+By quantifying the criticality of each asset type we can determine the
+  strategy that is proportional to its importance to us.
+It makes little sense to priorise a cheap asset that is readily available with
+  little consequence of failure.
+
+Parkinson's ["Law of Triviality"][wiki_trivial_law], commonly known as
+  "bike-shedding" becomes relevant here.
+The example given is that planning time on a power plant may be mainly spent on
+  the bike-shed over the reactor as the former has a low barrier to entry
+  whereas the latter is complex.
+
+<!-- Links -->
+
+[wiki_trivial_law]:
+https://en.wikipedia.org/wiki/Law_of_triviality
+

@@ -1,0 +1,30 @@
+# Alignment
+
+## Principle of Alignment
+
+![Principle of Alignment (Draw.IO)](../../images/principle_of_alignment.drawio.svg){#fig-alignment}
+
+@fig-alignment shows a crudely drawn oversimplification of what we mean by
+  alignment. A more complete version is available in ISO 55000.
+One can see that all objectives flow down from *top management* by defining
+
+* **AM Policy**. Short document covering key priorities of AM
+  ([AM Policy](ampolicy.html))
+
+* **SAMP**. Strategic AM plan with long-term goals considered
+  ([SAMP](samp.html))
+
+* **AMP**. AM plan for the immediate activities over a pre-defined period of
+  time
+
+All of these create a feedback loop with the original organisational long-term
+  objectives.
+
+## Asset Manager Role
+
+Note that it is not for the asset manager to decide organisational objectives
+  such as which stakeholders to priorities or how far to meet stakeholder
+  demands.
+
+Instead, the role involves understanding how to best meet these demands and
+  objectives within a always-changing environment.

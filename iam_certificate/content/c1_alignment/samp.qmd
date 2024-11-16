@@ -1,0 +1,25 @@
+# SAMP
+
+::: {.callout-note}
+## SAMP
+**S**trategic
+**A**sset
+**M**anagement
+**P**olicy.
+:::
+
+Recall from @fig-6box that the SAMP is informed by the organisational
+  objectives directly and the AM policy document.
+It also informs the AM plan.
+
+The document includes
+
+* Strategies for assets
+
+* Strategies for enablers (risk management, asset information, etc.)
+
+* Objectives for each strategy
+
+These strategies may apply to specific asset classes, specific service lines,
+  sites or systems.
+  

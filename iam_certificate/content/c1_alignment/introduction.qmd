@@ -1,0 +1,51 @@
+# Introduction
+
+## What is Asset Management?
+
+Before we can manage assets, we must define what is or isn't an asset.
+
+::: {.callout-note}
+## Definition
+An **asset** is an entity owned by a person or company that has value,
+  or potential to have value.
+:::
+
+While all companies must manage assets in some capacity, **Asset Management**
+  is the formalisation of several techniques.
+Similarly, it may be the case that only some assets are formally managed in
+  this way and are referred to collectively as the *asset portfolio*.
+  
+::: {.callout-note}
+## Definition
+**Asset Management** is coordinated activity of an organisation to realise
+value from assets.
+:::
+  
+  
+Such benefits include
+
+1. Improved financial performance, sustainability, service, efficiency and
+   effectiveness
+
+1. Better decisions
+
+1. Managed risk
+
+1. Demonstrated compliance and responsibility
+
+## Conceptual Model
+
+![IAM 6-box Conceptual Model](../../images/iam_conceptual_model.png){#fig-6box}
+
+Here we see the key components of the scope of asset management
+
+* Informed by organisational goals or strategic plan (**alignment**)
+
+* Strategy and planning informing lifecycle delivery 
+
+* Decision making relies on people and asset information
+
+* Lifecycle delivery informs both asset information and a risk and review
+  stage (**continued improvement**)
+  
+* **TODO** Update as we go.

@@ -1,0 +1,37 @@
+project:
+  type: book
+
+execute:
+  freeze: auto
+
+book:
+  title: "IAM Certificate Revision"
+  author: "[Josh Cowley](mailto:josh.cowley@hotmail.com)"
+  date: today
+
+  repo-url: https://github.com/nclJoshCowley/jcnotes/iam_certificate
+
+  sidebar:
+    search: true
+    tools:
+      - icon: envelope
+        href: mailto:josh.cowley@hotmail.com
+
+
+  chapters:
+    - index.qmd
+    - part: "C1: Alignment, Policies and Strategies"
+      chapters:
+        - content/c1_alignment/introduction.qmd
+        - content/c1_alignment/alignment.qmd
+        - content/c1_alignment/demand.qmd
+        - content/c1_alignment/ampolicy.qmd
+        - content/c1_alignment/samp.qmd
+        - content/c1_alignment/criticality.qmd
+        - content/c1_alignment/key_takeaways.qmd
+
+format:
+  html:
+    theme: pulse
+    number-sections: false
+    toc: true
