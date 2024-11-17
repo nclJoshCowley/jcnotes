@@ -1,0 +1,75 @@
+# Review
+
+## PDCA
+
+Our role of AM should be summarises by the PDCA cycle
+
+* **Plan**. Identify opportunity and make a plan
+
+* **Do**. Implement change on small scale
+
+* **Check**. Review effectiveness using data
+
+* **Act**. Make fact-based decision for next steps
+
+    * Good outcome implies opportunity to scale
+    
+    * Poor outcome requires improvements to tested implementation
+    
+It is important to not only focus on short-term outputs as it may make you
+  too *result-oriented*.
+  
+::: {.callout-note}
+## Definition (Loose)
+**Results-oriented** is focusing on desired outcomes, rather than processes
+  used to get there.
+:::
+
+Consider the four extremes
+
+* High performance without AM is viewed as *unsustainable*
+
+* High performance with AM is therefore viewed as *sustainable*
+
+* Low performance without AM is seen as *underperforming* by all
+
+* Low performance wit AM is viewed as *promising*.
+
+This separation of outcomes and procedures is key for many sectors, even
+  high-level athletes.
+Losing or winning a single football game is not seen as a true reflection
+  of long-term success, the performance during that game is.
+
+## Measures and Indicators
+
+We can categorise asset health indicators in many ways. For example,
+
+* **Output Measures**
+
+  * Item cost, service capacity, availability, safety, and
+    stakeholder satisfaction
+    
+  * Validated against performance metrics
+    
+* **Stewardship Measures**
+
+  * Asset condition, remaining life, replacement rate, number of failures
+  
+  * Validated against asset condition and internal assurance
+  
+* **AM Capability Measures**
+
+  * ISO standards compliance, efficiency, use of best practise,
+    clear justification of plans
+
+  * Validated against internal and external audit and assurance
+
+All indicators are said to be either lagging, leading or sometimes a
+  combination of the two.
+  
+::: {.callout-note}
+## Definition
+A **leading** indicator will help predict future performance.
+
+Whereas, a **lagging** indicator will give insight into past outcomes.
+:::

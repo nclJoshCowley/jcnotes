@@ -1,0 +1,74 @@
+# Risk Assessment
+
+## Identification
+
+We can identify risks using formal or informal methods.
+For example, a Hazard and Operability Study (HAZOP) where experience
+  individuals attempt to exhaustively list all potential hazards.
+  
+In either case, identifying risks should be systematic, well-defined and
+  linked to objectives.
+
+To further discern risks from opportunities, we can use tree analysis
+  (event A leads to event B and so on) for before and after the event.
+This analysis is commonly called the Bow-Tie Method and can help with
+  identifying risks and their preventions, mitigations and consequences.
+@fig-risk_bowtie shows an example of this.
+
+![Risk Bow-Tie Method (Source: <https://www.juliantalbot.com/post/risk-bow-tie-method>)](../../images/risk_bowtie.webp){#fig-risk_bowtie}
+
+## Analysis
+
+Once the risk are identified, we want to understand
+
+* Why the risk event may happen? Is this a symptom of another risk?
+
+* How frequently could this happen?
+
+* What are the potential consequences?
+
+This can be done with informal methods such as discussion and recording;
+  as with identification, the bow-tie method may help here.
+Or a more formal method such as risk modelling (Monte-Carlo, Statistics, etc.)
+
+## Risk Evaluation
+
+A key concept to assist in risk analysis is that the size of each risk is
+  directly proportional to two key driving factors.
+
+* **Likelihood**. Chance of risk event, for example 10% chance annually
+
+* **Consequence**. Realised losses, for example £1k-£2k fine depending on
+  impact to surrounding areas.
+
+::: {.callout-important}
+$$
+    \text{Risk}
+        = \text{Likelihood} \times \text{Consequence}
+$$
+:::
+
+Other words may be used in place of these (for example, likelihood can also be
+  *"failure frequency"* or "*probability*"; consequence may be *"severity"*)
+  but the concept remains fixed.
+  
+Using the examples above, the upper bound is
+$$
+    \text{Risk}
+        = 0.1 \times £2k = £200 \text{ per year.}
+$$
+Calculating cost per year, in monetary terms, can be extremely useful as it
+  provides us with an interpretable measure that can be compared across the
+  business.
+
+This ensures we don't overspend resource thinking about catastrophic failures
+  that are $1$ in $10^9$ events and similarly we don't spend too long
+  with the risk of losing a highly available cheap component when the
+  consequence is trivial.
+  
+More quantitative approaches exist and they may even consider likelihood before
+  and after mitigation.
+With such approaches it is not uncommon to see a risk matrix as the one shown
+  in @fig-risk_matrix.
+  
+![Risk Matrix (Source <https://www.haspod.com/blog/paperwork/5x5-risk-matrix>)](../../images/risk_matrix.png){#fig-risk_matrix}

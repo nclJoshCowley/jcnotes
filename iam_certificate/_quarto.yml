@@ -20,6 +20,7 @@ book:
 
   chapters:
     - index.qmd
+
     - part: "C1: Alignment, Policies and Strategies"
       chapters:
         - content/c1_alignment/introduction.qmd
@@ -28,7 +29,17 @@ book:
         - content/c1_alignment/ampolicy.qmd
         - content/c1_alignment/samp.qmd
         - content/c1_alignment/criticality.qmd
-        - content/c1_alignment/key_takeaways.qmd
+        - content/c1_alignment/summary.qmd
+
+    - part: "C2: Risk Management, Outsourcing and Review"
+      chapters:
+        - content/c2_risk/introduction.qmd
+        - content/c2_risk/assessment.qmd
+        - content/c2_risk/treatment.qmd
+        - content/c2_risk/contingency.qmd
+        - content/c2_risk/outsourcing.qmd
+        - content/c2_risk/review.qmd
+        - content/c2_risk/summary.qmd
 
 format:
   html:

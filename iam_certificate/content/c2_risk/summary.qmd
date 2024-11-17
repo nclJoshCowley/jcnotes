@@ -1,0 +1,15 @@
+# Summary
+
+* [*Introduced*](introduction.html) the concept of risk and then learned how to
+
+  * [*assess*](assessment.html) risk in monetary terms,
+  
+  * [*treat*](treatment.html) risk depending on risk appetite,
+  
+  * and make [*contingency*](contingency.html) plans for when risk events occur
+
+* [*Outsourcing*](outsourcing.html); risks and benefits of allowing work to be
+  done by a third-party
+  
+* Importance of the [*review*](review.html) stage within AM and which
+  indicators or measures should be used

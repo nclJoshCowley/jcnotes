@@ -1,0 +1,62 @@
+# Outsourcing
+
+## Definitions
+
+::: {.callout-note}
+## Definition
+**Outsourcing** is a business practise where work is performed by an external
+  provider.
+:::
+
+There are plenty of example where outsourcing may be appropriate, such as
+  highly skilled work that is only done a few time per year or seasonal work
+  where outsourced labour can meet exceptional demand.
+  
+The process of this can be shown diagrammatically as a cycle, but suppose we
+  start from the requirements stage.
+We then need to
+
+1. Define requirements
+
+    * What is important and what work is to be completed?
+    
+    * Which KPIs should be used to measure performance?  
+
+1. Objective supplier selection
+
+    * Suppliers should be chosen based on tender application, not previous
+      relationships
+    
+1. Performance Management
+
+    * Analyse work being done and answer many questions, say
+  
+        * Who stores data for KPIs? Who has access?
+        * How much oversight is required?
+        * Who was responsible for safety and training?
+
+1. Relationship Building and Collaboration
+
+    * How can the first-party help the third-party? Knowledge-share?
+  
+    * Potential for future contracts? Extend existing contracts?
+  
+1. Refine Policies
+
+    * What went well and what should be changed next time?
+
+## Asset Manager Involvement
+
+This is a clear simplification of the procurement process but it highlights
+  a key need for an asset manager to be in this process.
+They must ensure clarity of work specification (including asset information 
+  requirements) and will also have useful insights to other discussions such
+  as choice of KPI, cost of work done, appropriate risk appetite.
+  
+This involvement ensures
+
+* ownership of asset information is retained by the client
+
+* roles and responsibilities are made clear to all involved
+
+* technical requirements are clearly communicated to the third-party

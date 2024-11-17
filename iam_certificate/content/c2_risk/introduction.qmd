@@ -1,0 +1,44 @@
+# Introduction
+
+## What is Risk Management?
+
+::: {.callout-note}
+## Definition
+**Risk** is the effect of uncertainty on objectives.
+:::
+
+As a guideline, we can use the ISO 31000 guidelines.
+There are three main sections we are interested in for the IAM certification
+  that are summarised in three diagrams in @fig-iso31k
+  
+![ISO 31000:2018. One diagram per clause](../../images/iso31k.png){#fig-iso31k}
+
+* Principles (Clause 4). *Value Creation and Protection*
+
+  * Integrated continual improvement
+  
+  * Structured yet dynamic
+  
+  * Comprehensive with all factors (human, cultural, economic, etc.)
+  
+  * Understand risks with best available information
+  
+* Frameworks (Clause 5). *Leadership and Commitment*
+
+  * See "Plan-Do-Check-Act"
+  
+  * Design $\implies$ Implementation $\implies$ Evaluation $\implies$
+    Improvement and Integration
+
+* Process (Clause 6)
+
+  * We could interpret this diagram as top-down where scope is defined first
+  
+  * Constant review throughout with communications, monitoring and recording
+  
+  * [*Risk assessment*](assessment.html) is the need to identify, analyse
+    and evaluate risks
+    
+  * [*Risk treatment*](treatment.html) is action taken on understood risk.
+    Is it acceptable? Can it be mitigated?
+

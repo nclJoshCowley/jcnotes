@@ -1,0 +1,31 @@
+# Contingency
+
+::: {.callout-note}
+## Definition
+A **contingency** is a future event that is possible, but can't be predicted
+  with certainty.
+:::
+
+The term is often used in the context of *contingency planning* where we must
+  train and plan how to react when the unexpected happens.
+The "unexpected" may be a fault that has to be routed around or a
+  catastrophic event that requires first responders.
+
+Contingency planning can be broken into three main steps:
+
+1. Understanding risks and potential contingencies
+
+1. Analyse each and prepare standardised responses
+
+1. Prepare for contingent situations (training exercises)
+
+## Readiness 
+
+We evaluate and improve these plans using the Nertney Wheel.
+
+* **Plant**. Is required equipment fit and proper?
+
+* **People**. Are required individuals known and prepared?
+
+* **Procedures**. Are unambiguous plans documented and ready for use?
+
