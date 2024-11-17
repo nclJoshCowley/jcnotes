@@ -37,15 +37,13 @@ Such benefits include
 
 ![IAM 6-box Conceptual Model](../../images/iam_conceptual_model.png){#fig-6box}
 
-Here we see the key components of the scope of asset management
+Here we see some key principles of asset management
 
 * Informed by organisational goals or strategic plan (**alignment**)
 
 * Strategy and planning informing lifecycle delivery 
 
-* Decision making relies on people and asset information
+* Decision making relies on people, planning and asset information
 
 * Lifecycle delivery informs both asset information and a risk and review
   stage (**continued improvement**)
-  
-* **TODO** Update as we go.
