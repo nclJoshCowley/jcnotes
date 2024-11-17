@@ -1,0 +1,81 @@
+# Maintenance Concepts
+
+::: {.callout-note}
+## Definition
+**Maintenance** is the collection of actions that aim to keep equipment and
+  systems working to an acceptable level
+:::
+
+As with many AM concepts, maintenance should involve a
+
+* **Plan** stage (requirements analysis, creation of maintenance plan)
+
+* **Do** stage (implement maintenance schedule, perform maintenance)
+
+* **Check** stage (operator feedback, asset performance)
+
+* **Act** stage (continuous improvement, feeds into next planning stage)
+
+## Optimisation
+
+A common question is when should we do maintenance and at what point do we hit
+  diminishing returns.
+We have several tools for this
+
+* **Failure Modes, Effects and Criticality Analysis (FMECA)**
+
+  * Investigates clear relationships between assets and failures
+  
+  * One potential route is that assets exist in systems, so
+  
+    * Systems $\implies$ Components $\implies$ Failure Mode
+    
+  * Alternatively,
+  
+    * Function $\implies$ Functional failure $\implies$ Failure Mode
+  
+* **Failure Tree Analysis (FTA)** and **Event Tree Analysis (ETA)**
+
+  * Connects failure modes to consequences. See @fig-risk_bowtie.
+
+* **Rule Based Task Allocation**
+
+  * Connects mitigations directly to failure modes
+  
+* **Cost Risk Optimisation**
+
+  * For a specified period of time, how much maintenance should be done?
+
+### Optimisation Technique
+
+We have two related overarching techniques that can be used with the previous
+  section.
+  
+::: {.callout-note}
+## RCM
+**R**eliability
+**C**entred
+**M**aintenance.
+
+RCM priorities reliability and is agnostic to risk.
+:::
+
+::: {.callout-note}
+## RBM
+**R**isk
+**B**ased
+**M**aintenance.
+
+RBM priorities risk but is agnostic to reliability.
+:::
+
+These are related as it is not unbelievable that a reduction in risk would
+  cause and increase in reliability, however, this is not always the case.
+  
+Consider a service reservoir that is active more than $99\%$ of the time but
+  overlooks a large city (risk event is that it floods).
+
+* RCM prioritises other assets as the reliability is already high
+
+* RBM prioritises this asset as it is a "high risk" asset with large
+  consequences 

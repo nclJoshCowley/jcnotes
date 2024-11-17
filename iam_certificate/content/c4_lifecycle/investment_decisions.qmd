@@ -1,0 +1,137 @@
+# Investment Decision-Making
+
+Investment processes **must** provide a consistent way of assessing different
+  options with a clear alignment with AM plans (AM policy, SAMP, and AMP).
+  
+For example, this can take the following form
+
+* Define requirements (links to organisational objectives)
+
+* Criticality analysis (whole-life criticality)
+
+* Option identification (usage of clear criteria)
+
+* Cost analysis (whole-life cost)
+
+* Business case (evaluation, further concerns such as governance)
+
+## Business Case
+
+Using this example, we construct the following conceptual business case model
+
+1. **Initiation**
+
+    * Outline business case. Benefits? Costs? Risks?
+
+1. **Planning**
+
+    * Fully designed case with several options and clear preference
+
+1. **Execution**
+
+    * Actual production of plan, all revisions should keep original plan in
+      mind
+
+1. **Completion**
+
+    * Handover to operations, benefits should be validated against
+      expectations
+
+## Financial Appraisal
+
+There are several methods to determine if benefits outweigh costs financially.
+We focus on Net Present Value (NPV).
+
+::: {.callout-note}
+## Definition
+**Net Present Value (NPV)** is the sum of the Present Value over all years
+  considered.
+  
+**Present Value** are the future cash flows, adjusted for some known rate.
+That is,
+$$
+    \text{Present Value}
+        = \frac{\text{Future Value}}{(1 + i)^n}
+$$
+:::
+
+This rate is typically set by the finance department that are more aware of
+  financial trends both internal and external to the organisation.
+
+The main takeaway is that
+
+* $\text{NPV} > 0 \implies \text{Profitable}$
+
+* $\text{NPV} = 0 \implies \text{Break-even}$
+
+* $\text{NPV} < 0 \implies \text{Not Profitable}$
+
+### Worked Example
+
+Suppose we are only considering value lost to inflation, future value is the
+  amount we are expecting at time of agreement
+
+* I will pay you £5 in 5 years from today, but it will cost you £4
+
+    * $FV = £5$
+
+* Inflation is set at $5\%$
+
+    * $(1 + i)^5 = 1.05^5$
+
+* Present value is therefore
+
+    * $\frac{£5}{1.05^5} \approx £3.92$
+
+Accepting this scenario for the up-front cost of $£4$ would result in a
+  losing scenario.
+Note that the naive approach (that $£5 > £4$) would simply accept and ignore
+  the inflationary rate.
+
+### Payback Period
+
+This toy example does not consider the typical cash-flow of an investment.
+In reality, we spend a large amount of money (*capital*) and recuperate those
+  losses over time with revenue.
+
+Thus, we can determine the amount of time required to get our money back on
+  the initial investment.
+  
+* When the discount rate is ignored, this is the **payback period**
+
+  * For example, £1M investment creating £100k annually takes 10 years to
+    pay back
+
+* Adjusting for the discount rate leads to the (typically longer)
+  **discounted payback period**.
+
+  * Again, £1M investment creating £100k annually takes longer than 10 years
+    when "adjusting" for the rate
+
+## Other Financial Terms
+
+Consider these terms as potentially relevant to asset managers.
+
+* Balance Sheet
+
+  * Ledger that details funding, liabilities and equity.
+
+* Profit and Loss (P&L)
+
+  * Income statement detailing revenue and expenditure
+  
+* Cash Flow Model
+
+  * Models and monitors the actual path cash takes through a business
+  
+* Fixed Asset Register
+
+  * Captures key asset information (identifiers, cost, owner, risk)
+  
+* Depreciation
+
+  * Allows asset managers to spread the cost of ageing of asset life
+  
+* EBITDA
+
+  * Earning before interest, tax, depreciation, amortisation

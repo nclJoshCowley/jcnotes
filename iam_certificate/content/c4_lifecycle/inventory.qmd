@@ -1,0 +1,26 @@
+# Inventory Management
+
+Inventory management is a common logistical challenge for many organisations.
+Keeping "spares" can make an organisation more resilient to sudden changes
+  in the market.
+  
+Types of spares include
+
+* **Consumable** spares
+
+  * Low cost and low lead time
+
+* **Repairable** spares
+
+  * Variable cost and variable lead time
+  
+* **Strategic** spares
+
+  * High cost, typically bought for life (insurance)
+  
+The lead time is of high importance as only ordering when there are no spares
+  will lead to sporadic stocks.
+Conversely, stocking up too frequently can drive up storage costs.
+
+As with maintenance, we need to understand these assets to enforce cost-risk
+  optimisation.

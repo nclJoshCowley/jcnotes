@@ -1,0 +1,98 @@
+# Systems Engineering
+
+At some point, any organisation will have to create new assets.
+Such a decision carries inherent benefits, costs and risks and therefore must
+  be managed correctly.
+  
+The conceptual model used here is the systems engineering "V" process
+  (based on EN50126 RAMS, to be defined later) as shown in @fig-syseng.
+The shape of the model should convey how each testing step has an associated
+  planning step and vice versa.
+Note that other versions exist with more domain-specific steps but the message
+  is consistent.
+
+![Systems Engineering "V" Process (Source: <https://www.bosing-bv.com/en/news-all/141-se>)](../../images/syseng.jpg){#fig-syseng}
+
+As project time increases, we observe the project size increases as more plans
+  and actions are taken.
+
+1. Requirements are clearly defined by the organisation (**PLAN**)
+
+2. Producing a scope and clear plan for the asset (**PLAN**)
+
+3. Design for the system is outlined first (**DO**)
+
+4. A more detailed design is then created (**DO**)
+
+5. The system is implemented according to the plan (**DO**)
+
+    * Implementation strategies are key here, staged roll-out? trial run?
+  
+At the bottom of the "V", the system is installed but we must validate the
+  implementation.
+  
+6. Isolated testing takes place (**CHECK**)
+
+    * Early testing could be at suppliers' factory, in-house storage
+  
+    * Detail can be high-level (does it work?) or even component-level
+    
+7. Functional testing takes place (**CHECK**)
+
+    * Does it work with our system?
+  
+    * Can it functionally act as the organisation requires?
+  
+8. Performance testing takes (**CHECK**)
+
+    * Is the entire system working to the standard initially specified?
+  
+9. Finally, we can implement the system with further monitoring (**ACT**)
+
+Testing is never exhaustive and the monitoring of an existing system should be
+  done to correct course as soon as possible.
+One such technique is [FRACAS][wiki_fracas].
+  
+::: {.callout-note}
+## FRACAS
+**F**ailure
+**R**eporting
+**A**nalysis
+**C**orrective
+**A**ction
+**S**ystem.
+:::
+
+## RAMS
+
+The four principles @fig-syseng aims to capture are
+
+* **Reliability**
+  
+  * Probability an asset can perform over a specific time period
+
+* **Availability**
+
+  * Amount of time an asset can be used to fulfil a purpose
+
+* **Maintainability**
+
+  * Probability an asset can be maintained over a specific time period
+
+* **Safety**
+
+  * Probability an asset can perform function without endangering others
+
+Note that
+
+* Reliability is linked to "Mean Time between Failures" (MTBF).
+  Longer is better.
+
+* Maintainability is linked to "Mean Time to Repair" (MTTR).
+  Shorter is better.
+
+
+<!-- Links -->
+
+[wiki_fracas]:
+https://en.wikipedia.org/wiki/Failure_reporting,_analysis,_and_corrective_action_system

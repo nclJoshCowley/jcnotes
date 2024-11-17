@@ -1,0 +1,48 @@
+# Disposal
+
+## Justification of Disposal
+
+::: {.callout-note}
+## Definition
+A **Strategic Failure Mode** is a type of failure mode where the asset either
+  is unable to performs its required function, or it is not cost effective
+  to do so.
+:::
+
+This term is preferred over the "end of life" term but both are still
+  used today.
+  
+Reasons for strategic failure modes include
+
+* **Compliance**
+
+  * Legislation changed so the asset is no longer fit-for-purpose?
+  
+* **Condition**
+
+  * Acceptable performance no longer achievable?
+  
+* **Obsolescence**
+
+  * Unable to repair due to fleeting parts?
+  
+* **Operational**
+
+  * Has a recent change rendered this asset economically infeasible?
+  
+* **Capacity**
+
+  * Is the capacity mismatched (under or over) to the business requirements?
+  
+## Type of Disposal
+
+When an asset has experience a strategic failure mode, how should we proceed?
+
+* Can we re-use within organisation?
+
+* Can we sell (or donate) the asset?
+
+* Is recycling an option?
+
+Otherwise, we must dispose of it **responsibly**.
+

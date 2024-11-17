@@ -41,8 +41,19 @@ book:
         - content/c2_risk/review.qmd
         - content/c2_risk/summary.qmd
 
+    - part: "C4: Optimising Lifecycle Activities"
+      chapters:
+        - content/c4_lifecycle/investment_decisions.qmd
+        - content/c4_lifecycle/systems_engineering.qmd
+        - content/c4_lifecycle/maintenance.qmd
+        - content/c4_lifecycle/failure.qmd
+        - content/c4_lifecycle/inventory.qmd
+        - content/c4_lifecycle/disposal.qmd
+        - content/c4_lifecycle/summary.qmd
+
 format:
   html:
     theme: pulse
     number-sections: false
     toc: true
+

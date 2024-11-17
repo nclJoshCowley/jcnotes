@@ -1,0 +1,79 @@
+# Failure Modes
+
+Task selection and Rule-Based Task Allocation (RBTA) classifies failure modes
+  into the following categories, then assigns tasks based on each.
+  
+* **Prevention - Failure (P-F)**
+
+  * Predictable failure based on deteriorating asset condition
+  
+  * **Task**? Condition-based
+
+* **Usage-Related**
+
+  * Failure caused by usage of the asset
+  
+  * **Task**? Preventative maintenance
+
+* **Hidden**
+
+  * Root-cause is hidden
+  
+  * **Task**? Failure-finding
+
+* **Not influenced by maintenance**
+
+  * For example, third-party damage
+
+  * **Task**? Redesign
+
+## Optimum Maintenance Level
+
+Recall the terms
+
+* Operating Expenditure (OpEx)
+
+* Capital Expenditure (CapEx)
+
+* Total Expenditure (TotEx)
+
+![Optimal Maintenance Level (Source <https://coastapp.com/blog/preventive-maintenance/>)](../../images/optimal_maintenance.avif){#fig-optimal_maintenance}
+
+@fig-optimal_maintenance shows the relationship between each expenditure and
+  maintenance frequency.
+For our purpose, "Prevention Cost" is CapEx and "Repair Cost" is OpEx.
+
+What is typically observed is that having no maintenance correlates with
+  high CapEx spending as assets are replaced instead of maintained.
+Alternatively, too frequent maintenance leads to high OpEx costs and likely
+  wasted efforts.
+  
+Instead, our goal is to minimise TotEx at the optimum point shown.
+Due to other contextual information such as budgets and business environments,
+  we may settle for a sub-optimal frequency, but this would need justifying.
+
+## Work Planning
+
+Maintenance should be included in the business case for the new asset.
+As with many AM approaches, the plan should be continually improved to
+  help make the implementation better.
+
+An advanced plan would include resource planning, missed maintenance guidance
+  and constant feedback and review.
+  
+For example, missing 1 monthly maintenance activity per year (on accident) may
+  show no difference to the initial plan of 12 per year.
+Such information is a clear opportunity to reduce work and costs with little
+  change in risk.
+
+Work planning typically involves
+
+* Resource prioritisation
+
+* Planning processes
+
+* Health and safety
+
+* [*Inventory management*](inventory.html)
+
+* Resource allocation
