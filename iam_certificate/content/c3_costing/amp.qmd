@@ -1,0 +1,73 @@
+# Asset Management Plan
+
+An Asset Management Plan (AMP) is a key component to the alignment shown in
+  @fig-alignment.
+It is informed directly by the Strategic Asset Management Plan (SAMP) and
+  indirectly by the AM policy; it should inform the execution of work.
+  
+As such, it should include
+
+* Maintenance schedules
+
+* Investment programme for refurbishments, renewals and new assets
+
+* Asset disposal and rationalisation (reorganising assets)
+
+An AMP is a good idea that may be suggested by a regulator or government
+  as it provides structure, insight into costs of activities the
+  organisation enacts, and helps overall employee coordination.
+    
+It is not to check a box and allows asset-intensive organisations plan for the
+  short, medium, and long-term.
+  
+## Rolling AMP Process
+
+To achieve planning at several time scales, there is a rolling review and
+  update for each.
+
+* **Short-term**. What activities are to be done within the next year?
+
+* **Medium-term**. What activities need to planned in the next 5 years?
+
+* **Long-term**. What strategic activities are required?
+
+## Example Contents
+
+It can be helpful to see an example contents (provided by AMA) with labels
+  that connect to the 6-box model from @fig-6box.
+
+1. Summary and Scope (**Strategy and Planning**)
+
+1. AM Strategy and Alignment (**Strategy and Planning**)
+
+1. Review of Previous AMP (**Review**)
+
+1. Changes to Asset Portfolio (**Asset Information**)
+
+1. State of Current Assets (**Asset Information**)
+
+1. Future Requirements (**Lifecycle Delivery**)
+
+1. Decision Processes (**Decision Making**)
+
+1. Plan - Resources, Outputs, Costs (**Strategy and Planning**)
+
+1. Roadmap (**Strategy and Planning**)
+
+1. Continuous Improvement
+
+## Templates
+
+By creating whole-life cost templates for specific systems or asset classes
+  we can modularise.
+That is, the overall plan can be the addition of costs related to each asset
+  listed in the asset portfolio, we call this the **base case**. 
+The templates inform how granular each asset class should be.
+
+We can also standardise risks and improve processes laterally when using
+  consistent language; risks can then be shared via some "Lessons Learned"
+  programme.
+  
+Using scenario-based whole-life costs allows us to show the modelling
+  implications of funding constraints where the cost is not saved but deferred
+  to a later AMP.

@@ -1,0 +1,129 @@
+# Whole-life Approach
+
+Whole-life cost is important as most of the spending commitments happen
+  in the early "Design" stage of the project but spending happens later.
+
+The upshot of this is that
+
+* Project matures as more decisions are made at exponential rate
+
+* Project has less flexibility due to prior decisions
+
+* Opportunities decrease, also at an exponential rate
+
+The exercise of choosing assets based on whole-life costs can be difficult
+  due to incomplete information.
+Marketing of a product may use terms such as "easy installation" or "low
+  maintenance" but the accuracy of such terms are questionable.
+  
+Whole-life costs extends the question of cost from a single capital investment
+  using longer-term questions
+  
+* Installation costs?
+
+* Operation and maintenance costs?
+
+* Reliability of each asset, is quoted lifetime accurate?
+
+* Disposal costs?
+
+Each carries its own uncertainty.
+
+## Types of Whole-life Cost
+  
+* **CapEx**
+
+  * Capital expenditure. Initial investment cost.
+
+  * For example: design, land purchase, training, documentation, facilities
+
+* **OpEx**
+
+  * Operating expenditure. Business as usual costs, repair costs.
+  
+  * For example:
+  
+    * Operations (labour, energy, water, raw materials)
+    
+    * Maintenance (labour, spares, overheads)
+    
+    * Risk Costs (malfunctions, downtime)
+    
+    * Disposal (cost of disposal, residual value)
+  
+* **TotEx**
+
+  * Combination of OpEx and CapEx.
+
+The relationship between these can be viewed in @fig-iam_maintenance_costs.
+
+## Unit Costs
+
+With so many costs coming from a variety of source, it can be really useful
+  to standardise these so comparisons can be made and our analyses are
+  consistent over time.
+  
+One such option is **unit costs**; for example, cost of water transport per
+  litre provided or cost per mile of a new pipeline.
+These allow for more interpretable numbers but still consider a range of
+  factors such as direct labour and overheads (say, time waiting for site
+  access).
+
+## Optimum Life
+
+Once we have a consistent measure of whole-life cost across all asset options,
+
+::: {.callout-important}
+We make the optimal decision by minimising **lowest average annual cost**.
+:::
+
+::: {.callout-note}
+## Definition (Loose)
+**Average annual cost** is the whole-life taken spread over the lifetime of
+  that asset.
+:::
+
+For assets that are only needed a predetermined length of time, we consider
+  the *optimum economic life*, the life that minimises whole-life costs for
+  that duration of time.
+  
+## Mean Time between Failures (MTBF)
+
+::: {.callout-note}
+## Definition
+**Mean time between Failures (MTBF)** is a performance measure of reliability
+  of an asset or system.
+:::
+
+This time may not be constant in the short-term (distribution mains MTBF
+  depend on the weather) or long-term (ageing assets lead to a shorter MTBF)
+  but this is a good metric nevertheless.
+
+## In-Practice
+
+A whole-life cost analysis in practice would list all costs per category and
+  year with values for each.
+For example,
+
+* Installation may be £1M - £0 - £0 over 3 years
+
+* Routine maintenance could be £10k - £10k - £10k over the same 3 years.
+
+* We then calculate the total cost for each year
+
+* Average annual cost per year is calculated by summing all costs up to and
+  including that year, and dividing by the number of years considered.
+  
+For the more technical audience, the whole-life cost is the **running average**
+  of the yearly costs.
+
+There are other factors to be considered in this calculation that complicate
+  the calculations.
+  
+* Discount rate and interest payments
+
+* Changing business demands (including opportunities)
+
+* Inconsistent analysis methods
+
+* Competency and employee training

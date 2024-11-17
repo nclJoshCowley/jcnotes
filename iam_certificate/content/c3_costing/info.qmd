@@ -1,0 +1,105 @@
+# Asset Information
+
+We often make decisions through data, but we always need more context.
+That is, several levels of context surrounding data (metadata) exist
+
+* **Raw Data**. Pure numeric data.
+
+  * $0.235$
+
+* **Information**. Units and context as to what the observation is
+  
+  * A main has $0.235$ bursts per km, per annum
+
+* **Knowledge**. Implication of the value within a business context
+
+  * Compared to average assets, this is one of the most deteriorated mains in
+    the network
+
+* **Wisdom**. Ability to make decisions
+
+  * It is better long-term to replace this main with a new main and we can
+    incorporate this into our next AMP.
+
+Note that data can still take many forms including structure data (databases),
+  unstructured data (technical drawings) and knowledge (expert opinion).
+An alternate distinction is between measured quantitative data and judged
+  qualitative data.
+
+## AM Decision Scale
+
+* **Strategic**. Up to 25 years. Fundamental to how the organisation runs
+
+* **Tactical**. Up to a few years. Activities to enable our strategy
+
+* **Operational**. Up to monthly. Executing business process
+
+* **Instant**. At event. Trained reactionary actions
+
+## Common Challenges
+
+Here are some example challenges that highlight opportunities to improve the
+  asset information system.
+
+* Multiple disconnected systems
+
+* Poor quality data
+
+* Hard to find
+
+* Unclear ownership and hard to trust
+
+* Missing or inconsistent standards
+
+* Contracts missing key clauses about information handover
+
+* Knowledge loss through retirement
+
+## Data Quality
+
+As an aside, what do we mean when we say "poor quality" data?
+
+1. **Completeness**. How many missing observations is too many?
+
+1. **Consistency**. Does data from different sources agree?
+
+1. **Uniqueness**. Is there a single source of truth, or is it ambiguous?
+
+1. **Validity**. Is the metadata, say the units $m$ or $km$, correct?
+
+1. **Accuracy**. Is the data itself a true representation of reality?
+
+1. **Timeliness**. Does the waiting time for data inhibit decisions?
+
+## Best Practices
+
+To avoid these challenges, we aim for a positive feedback loop between
+
+* Standards
+
+* Systems
+
+* Data Management
+
+All should inform the next item and fulfil the continuous improvement
+  principle of asset management.
+This can be done with a single unifying asset information strategy instead of
+  several compartmentalised strategies.
+  
+An example asset information strategy could include
+
+1. Scope
+
+1. Alignment to AM Strategy
+
+1. Principles and Requirements (per process or per role)
+
+1. Current State of asset data
+
+1. Challenges and Gaps
+
+1. Target State of asset data
+
+1. Improvement Plan
+
+1. Governance and RACI (Responsible, Accountable, Consulted and Informed)

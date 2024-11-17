@@ -12,6 +12,7 @@ book:
   repo-url: https://github.com/nclJoshCowley/jcnotes/iam_certificate
 
   sidebar:
+    collapse-level: 1
     search: true
     tools:
       - icon: envelope
@@ -40,6 +41,14 @@ book:
         - content/c2_risk/outsourcing.qmd
         - content/c2_risk/review.qmd
         - content/c2_risk/summary.qmd
+
+    - part: "C3: Whole Life Costing and the AM Plan (AMP)"
+      chapters:
+        - content/c3_costing/wholelife.qmd
+        - content/c3_costing/amp.qmd
+        - content/c3_costing/info.qmd
+        - content/c3_costing/summary.qmd
+
 
     - part: "C4: Optimising Lifecycle Activities"
       chapters:
