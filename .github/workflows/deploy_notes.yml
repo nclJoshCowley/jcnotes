@@ -3,7 +3,7 @@ on:
   push:
     branches: main
 
-name: Publish Azure Notebook
+name: Publish Notebook
 
 jobs:
   build-deploy:
@@ -21,6 +21,6 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: azure
+          path: iam_certificate
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
