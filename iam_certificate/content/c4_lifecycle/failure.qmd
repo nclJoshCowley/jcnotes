@@ -47,6 +47,9 @@ What is typically observed is that having no maintenance correlates with
   high CapEx spending as assets are replaced instead of maintained.
 Alternatively, too frequent maintenance leads to high OpEx costs and likely
   wasted efforts.
+This is shown graphically in @fig-iam_maintenance_costs.
+
+![Average Annual Costs against Maintenance (Source: IAM Anatomy)](../../images/iam_maintenance_costs.png){#fig-iam_maintenance_costs}
   
 Instead, our goal is to minimise TotEx at the optimum point shown.
 Due to other contextual information such as budgets and business environments,
