@@ -2,186 +2,713 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Azure",
+    "title": "IAM Certificate Revision",
     "section": "",
-    "text": "Overview\nPersonal notes covering cloud computing in general, with a focus on Azure, developed and sold by Microsoft.",
+    "text": "Overview\nRevision material provided to assist in understanding the content within the IAM Certificate provided by the Institute of Asset Management (IAM).",
     "crumbs": [
       "Overview"
     ]
   },
   {
-    "objectID": "index.html#azure-fundamentals-az900",
-    "href": "index.html#azure-fundamentals-az900",
-    "title": "Azure",
-    "section": "Azure Fundamentals (AZ900)",
-    "text": "Azure Fundamentals (AZ900)\nWe start with a certification from Microsoft where the learning material is free but the examination has a cost.\nMore information at Microsoft Certified: Azure Fundamentals.",
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "IAM Certificate Revision",
+    "section": "Course Structure",
+    "text": "Course Structure\nThe associated exam, “Principles of Asset Management” is partitioned into 5 modules with questions weighted for each; 20 questions for M1 and 10 questions each for M2 through M5.\nThis revision guide mirrors the four chapters C1, C2, C3 and C4 that were supplied by the endorsed trainer. That is,\n\nC1: Alignment, Asset Management Policies and Strategies\nC2: Risk Management, Outsourcing and Review\nC3: Whole Life Costing and the Asset Management Plan\nC4: Optimising Lifecycle Activities",
     "crumbs": [
       "Overview"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html",
-    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html",
-    "title": "Describe Cloud Concepts",
+    "objectID": "index.html#iso-standards",
+    "href": "index.html#iso-standards",
+    "title": "IAM Certificate Revision",
+    "section": "ISO Standards",
+    "text": "ISO Standards\nThe following ISO standards are relevant to these materials.\n\nISO 55000. Definitions\nISO 55001. Requirements\nISO 55002. Guidelines\nISO 31000. Risk Management Guidelines",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/c1_alignment/introduction.html",
+    "href": "content/c1_alignment/introduction.html",
+    "title": "Introduction",
     "section": "",
-    "text": "What is Cloud Computing\nCloud computing is delivery of computing services including\nThe benefits of this approach is to allow scaling up and down to meet demand.",
+    "text": "What is Asset Management?\nBefore we can manage assets, we must define what is or isn’t an asset.\nWhile all companies must manage assets in some capacity, Asset Management is the formalisation of several techniques. Similarly, it may be the case that only some assets are formally managed in this way and are referred to collectively as the asset portfolio.\nSuch benefits include",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#what-is-cloud-computing",
-    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#what-is-cloud-computing",
-    "title": "Describe Cloud Concepts",
+    "objectID": "content/c1_alignment/introduction.html#what-is-asset-management",
+    "href": "content/c1_alignment/introduction.html#what-is-asset-management",
+    "title": "Introduction",
     "section": "",
-    "text": "virtual machines (VMs),\nstorage,\ndatabases,\nInternet of Things (IoT),\nMachine Learning (ML),\nArtificial Intelligence (AI).",
+    "text": "Definition\n\n\n\nAn asset is an entity owned by a person or company that has value, or potential to have value.\n\n\n\n\n\n\n\n\n\nDefinition\n\n\n\nAsset Management is coordinated activity of an organisation to realise value from assets.\n\n\n\n\nImproved financial performance, sustainability, service, efficiency and effectiveness\nBetter decisions\nManaged risk\nDemonstrated compliance and responsibility",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#shared-responsibility-model",
-    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#shared-responsibility-model",
-    "title": "Describe Cloud Concepts",
-    "section": "Shared Responsibility Model",
-    "text": "Shared Responsibility Model\nConsider a consumer of cloud service provider. Responsibility of maintenance and security of computational equipment can be classified as\n\nConsumer Responsibility: on-premises equipment is maintained by consumer’s IT department,\nShared Responsibility: cloud provider responsible for physical systems stored separate to consumer’s location; consumer responsible for data stored on servers and access security.\n\nThese shifts vary by situation and motivate these terms to be defined later.\n\nInfrastructure as a Service (IaaS),\nPlatform as a Service (Paas),\nSoftware as a Service (Saas).\n\nShared responsibility model is best seen in Figure 3.1.",
+    "objectID": "content/c1_alignment/introduction.html#conceptual-model",
+    "href": "content/c1_alignment/introduction.html#conceptual-model",
+    "title": "Introduction",
+    "section": "Conceptual Model",
+    "text": "Conceptual Model\n\n\n\n\n\n\nFigure 1.1: IAM 6-box Conceptual Model\n\n\n\nHere we see some key principles of asset management\n\nInformed by organisational goals or strategic plan (alignment)\nStrategy and planning informing lifecycle delivery\nDecision making relies on people, planning and asset information\nLifecycle delivery informs both asset information and a risk and review stage (continued improvement)",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#cloud-models",
-    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#cloud-models",
-    "title": "Describe Cloud Concepts",
-    "section": "Cloud Models",
-    "text": "Cloud Models\nCloud models, determining the type of resources available, are classified into three main groups\n\nPrivate: owned and used by a single entity, greater cost and benefits the few,\nPublic: controlled by a third-party and anyone can purchase compute,\nHybrid: combination of the two for advantages of both, public works for surge demand and private brings extra security.\n\nOne could also include a multi-cloud type where several public cloud models are combined.\nAzure provides a solution for varying business contexts,\n\nAzure Arc is a set of technologies that helps manage your cloud environment.",
-    "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
-    ]
-  },
-  {
-    "objectID": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#consumption-based-model",
-    "href": "content/az900_azure_fundamentals/az900_01_cloud_concepts.html#consumption-based-model",
-    "title": "Describe Cloud Concepts",
-    "section": "Consumption-based Model",
-    "text": "Consumption-based Model\nConsider two types of business expenditure, captial expenditure (CapEx) and operational expenditure (OpEx). Cloud computing can be an example of OpEx as you only pay for what you use and there are usually no upfront costs. This allows you to\n\n\nPlan and manage your operating costs.\nRun your infrastructure more efficiently.\nScale as your business needs change.",
-    "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Describe Cloud Concepts</span>"
-    ]
-  },
-  {
-    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html",
-    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html",
-    "title": "Describe Cloud Benefits",
+    "objectID": "content/c1_alignment/alignment.html",
+    "href": "content/c1_alignment/alignment.html",
+    "title": "Alignment",
     "section": "",
-    "text": "High Availability and Scalability\nAvailability can be defined in terms of uptime, when the sever is available for use, and downtime, not available for use due to maintenance, repairs or upgrades. Many obligations from providers vary between 99% and 99.9% availability, depending on business requirements. Such agreements are laid out in service level agreements (SLAs).\nScalability is the ability to handle surge demand, where traffic will peak for a short time and reduce back to background level after some time. This can be done in two ways\nHorizontal scaling is made easier with on-demand cloud computing.",
+    "text": "Principle of Alignment\nFigure 2.1 shows a crudely drawn oversimplification of what we mean by alignment. A more complete version is available in ISO 55000. One can see that all objectives flow down from top management by defining\nAll of these create a feedback loop with the original organisational long-term objectives.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Alignment</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#high-availability-and-scalability",
-    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#high-availability-and-scalability",
-    "title": "Describe Cloud Benefits",
+    "objectID": "content/c1_alignment/alignment.html#principle-of-alignment",
+    "href": "content/c1_alignment/alignment.html#principle-of-alignment",
+    "title": "Alignment",
     "section": "",
-    "text": "Vertical: improving current resources such as CPU compute or RAM,\nHorizontal: including more machines to handle more compute.",
+    "text": "Figure 2.1: Principle of Alignment (Draw.IO)\n\n\n\n\n\nAM Policy. Short document covering key priorities of AM (AM Policy)\nSAMP. Strategic AM plan with long-term goals considered (SAMP)\nAMP. AM plan for the immediate activities over a pre-defined period of time",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Alignment</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#reliability-and-predictability",
-    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#reliability-and-predictability",
-    "title": "Describe Cloud Benefits",
-    "section": "Reliability and Predictability",
-    "text": "Reliability and Predictability\nReliability, defined as the ability to recover from failures, is a requirement for many frameworks. Decentralised computing offered by cloud services allows for higher resilience from regional catastrophic events.\nWhen using an on-demand service, predictable performance and costs are heavily desired. By deploying to the cloud, with solutions including autoscaling and monitoring, one has a better idea for performance that may impact user experience. Similarly, cost is more predictable thanks to analytics and consistent environments (no paying for a Windows upgrade or stray process).",
+    "objectID": "content/c1_alignment/alignment.html#asset-manager-role",
+    "href": "content/c1_alignment/alignment.html#asset-manager-role",
+    "title": "Alignment",
+    "section": "Asset Manager Role",
+    "text": "Asset Manager Role\nNote that it is not for the asset manager to decide organisational objectives such as which stakeholders to priorities or how far to meet stakeholder demands.\nInstead, the role involves understanding how to best meet these demands and objectives within a always-changing environment.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Alignment</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#security-and-governance",
-    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#security-and-governance",
-    "title": "Describe Cloud Benefits",
-    "section": "Security and Governance",
-    "text": "Security and Governance\nIn the age of data, governance and security of who can access data is imperative. Cloud computing enables system administrators to update several machines at once through use of policy. Such rules can be fine-tuned to adhere to regulatory requirements and standards including international standards (ISOs).\nFurthermore, as these services are procured over the internet, network security from distributed denial of service (DDoS) or man in the middle attacks should be controlled in advance.",
-    "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
-    ]
-  },
-  {
-    "objectID": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#manageability",
-    "href": "content/az900_azure_fundamentals/az900_02_cloud_benefits.html#manageability",
-    "title": "Describe Cloud Benefits",
-    "section": "Manageability",
-    "text": "Manageability\nManagement of the cloud includes scaling, deploying, health monitoring and setting up alerts for some number of resources. This can be done using a\n\nweb portal,\ncommand line interface (including Powershell),\nAPI.",
-    "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Describe Cloud Benefits</span>"
-    ]
-  },
-  {
-    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html",
-    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html",
-    "title": "Describe Cloud Service Types",
+    "objectID": "content/c1_alignment/demand.html",
+    "href": "content/c1_alignment/demand.html",
+    "title": "Demand Analysis",
     "section": "",
-    "text": "Introduction\nWe cover each of the already mentioned shared responsibility models.",
+    "text": "Risk Appetite\nRisk is discussed in more detail within C2, but it is relevant here to distingiush between\nand\nAs with many concepts, these levels may change depending on the context.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Demand Analysis</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#introduction",
-    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#introduction",
-    "title": "Describe Cloud Service Types",
+    "objectID": "content/c1_alignment/demand.html#risk-appetite",
+    "href": "content/c1_alignment/demand.html#risk-appetite",
+    "title": "Demand Analysis",
     "section": "",
-    "text": "Figure 3.1: Diagram showing the responsibilities of the shared responsibility model.",
+    "text": "Definition\n\n\n\nRisk appetite, the level of risk one is comfortable with,\n\n\n\n\n\n\n\n\n\nDefinition\n\n\n\nRisk tolerance, the level of risk one can survive.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Demand Analysis</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
-    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-infrastructure-as-a-service-iaas",
-    "title": "Describe Cloud Service Types",
-    "section": "Describe Infrastructure as a Service (IaaS)",
-    "text": "Describe Infrastructure as a Service (IaaS)\nThe most flexible option, IaaS, allows for the most control over resources. A entity providing IaaS is responsible for hardware maintenance, physical security and internet connectivity. All configurations are the responsibility of the customer including operating systems and database configuration to mention a few.\nSuch a system may make the most sense when existing infrastructure, such as on-premises resources or knowledgeable staff, already exist and require scaling.",
+    "objectID": "content/c1_alignment/demand.html#changes-in-demand",
+    "href": "content/c1_alignment/demand.html#changes-in-demand",
+    "title": "Demand Analysis",
+    "section": "Changes in Demand",
+    "text": "Changes in Demand\nOnce we can understand the climate which our asset portfolio exists, we can begin predicting demand using a variety of techniques.\nIn the face of increasing demand, we may opt for\n\nOperational options that can slightly increase capacity as a short-term action,\nCapital enhancement to increase the permanent capacity of our assets,\n\nTo make these decision, top management must be informed on all the options, costs, and risk involved while also giving feedback about objectives, targets, and risk appetite to the asset manager.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Demand Analysis</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
-    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-platform-as-a-service-paas",
-    "title": "Describe Cloud Service Types",
-    "section": "Describe Platform as a Service (PaaS)",
-    "text": "Describe Platform as a Service (PaaS)\nWhen a cloud provider is also in charge of operating systems, database configurations and potentially network security, this can be more aptly described as PaaS.\nThese agreements are more common in development frameworks where developers within the customer entity may modify or extend existing cloud-based solutions.",
+    "objectID": "content/c1_alignment/ampolicy.html",
+    "href": "content/c1_alignment/ampolicy.html",
+    "title": "AM Policy",
+    "section": "",
+    "text": "Maturity\nWe assess the maturity of an asset management department using GFMAM Landscape Subjects. These can be found directly from GFMAM, or in the IAM Anatomy document and associated Figure 4.1\nNote that these are coloured with the 10-box colour model and not the 6-box conceptual model shown in Figure 1.1.\nFor maturiy, each subject is quantified on a 5-point scale,\nNote that maturity of each subject can decline if neglected and the ultimate goal is to not have maximum scores in all subjects as this is likely short-lived, difficult to maintain and not cost effective.",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AM Policy</span>"
     ]
   },
   {
-    "objectID": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-software-as-a-service-saas",
-    "href": "content/az900_azure_fundamentals/az900_03_cloud_service_types.html#describe-software-as-a-service-saas",
-    "title": "Describe Cloud Service Types",
-    "section": "Describe Software as a Service (SaaS)",
-    "text": "Describe Software as a Service (SaaS)\nThe most complete product, SaaS. places the most responsibility on the cloud provider. Email is a good example as the technical details such as where and how to store messages are covered by the vendor.",
+    "objectID": "content/c1_alignment/ampolicy.html#maturity",
+    "href": "content/c1_alignment/ampolicy.html#maturity",
+    "title": "AM Policy",
+    "section": "",
+    "text": "Figure 4.1: GFMAM Landscape Subjects\n\n\n\n\n\n\n0: Incompetent\n1: Aware\n2: Developing\n3: Competent\n4: Effective\n5: Excellent",
     "crumbs": [
-      "Azure Fundamentals",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Describe Cloud Service Types</span>"
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>AM Policy</span>"
+    ]
+  },
+  {
+    "objectID": "content/c1_alignment/samp.html",
+    "href": "content/c1_alignment/samp.html",
+    "title": "SAMP",
+    "section": "",
+    "text": "SAMP\n\n\n\nStrategic Asset Management Policy.\n\n\nRecall from Figure 1.1 that the SAMP is informed by the organisational objectives directly and the AM policy document. It also informs the AM plan.\nThe document includes\n\nStrategies for assets\nStrategies for enablers (risk management, asset information, etc.)\nObjectives for each strategy\n\nThese strategies may apply to specific asset classes, specific service lines, sites or systems.",
+    "crumbs": [
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>SAMP</span>"
+    ]
+  },
+  {
+    "objectID": "content/c1_alignment/criticality.html",
+    "href": "content/c1_alignment/criticality.html",
+    "title": "Criticality",
+    "section": "",
+    "text": "Criticality is a measure of how important an asset is to the usual operations of a company.\nAt the most basic level, this can be identifying the most important assets. Beyond this, we may include likelihood of failure in this calculation. Best practise is to use total business impact.\n\n\n\n\n\n\nDefinition (Loose)\n\n\n\nTotal Business Impact can be viewed as the sum of spend (renewal, planned and reactive maintenance) and risk cost.\n\n\nWe quantify risk as \\(\\text{Likelihood} \\times {\\text{Consequence}}\\) in C2.\nBy quantifying the criticality of each asset type we can determine the strategy that is proportional to its importance to us. It makes little sense to priorise a cheap asset that is readily available with little consequence of failure.\nParkinson’s “Law of Triviality”, commonly known as “bike-shedding” becomes relevant here. The example given is that planning time on a power plant may be mainly spent on the bike-shed over the reactor as the former has a low barrier to entry whereas the latter is complex.",
+    "crumbs": [
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Criticality</span>"
+    ]
+  },
+  {
+    "objectID": "content/c1_alignment/summary.html",
+    "href": "content/c1_alignment/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Introduced the meaning of an asset and coordinated activity known as asset management\nAlignment; principle that AM objectives are consistent with organisational objectives\nAsset strategies should be able to deal with uncertainty and ever-changing demands\nPurpose of the shorter AM policy and longer more-strategic SAMP\nCriticality allows for the prioritisation of different assets",
+    "crumbs": [
+      "C1: Alignment, Policies and Strategies",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/introduction.html",
+    "href": "content/c2_risk/introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "What is Risk Management?\nAs a guideline, we can use the ISO 31000 guidelines. There are three main sections we are interested in for the IAM certification that are summarised in three diagrams in Figure 8.1",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/introduction.html#what-is-risk-management",
+    "href": "content/c2_risk/introduction.html#what-is-risk-management",
+    "title": "Introduction",
+    "section": "",
+    "text": "Definition\n\n\n\nRisk is the effect of uncertainty on objectives.\n\n\n\n\n\n\n\n\n\nFigure 8.1: ISO 31000:2018. One diagram per clause\n\n\n\n\nPrinciples (Clause 4). Value Creation and Protection\n\nIntegrated continual improvement\nStructured yet dynamic\nComprehensive with all factors (human, cultural, economic, etc.)\nUnderstand risks with best available information\n\nFrameworks (Clause 5). Leadership and Commitment\n\nSee “Plan-Do-Check-Act”\nDesign \\(\\implies\\) Implementation \\(\\implies\\) Evaluation \\(\\implies\\) Improvement and Integration\n\nProcess (Clause 6)\n\nWe could interpret this diagram as top-down where scope is defined first\nConstant review throughout with communications, monitoring and recording\nRisk assessment is the need to identify, analyse and evaluate risks\nRisk treatment is action taken on understood risk. Is it acceptable? Can it be mitigated?",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/assessment.html",
+    "href": "content/c2_risk/assessment.html",
+    "title": "Risk Assessment",
+    "section": "",
+    "text": "Identification\nWe can identify risks using formal or informal methods. For example, a Hazard and Operability Study (HAZOP) where experience individuals attempt to exhaustively list all potential hazards.\nIn either case, identifying risks should be systematic, well-defined and linked to objectives.\nTo further discern risks from opportunities, we can use tree analysis (event A leads to event B and so on) for before and after the event. This analysis is commonly called the Bow-Tie Method and can help with identifying risks and their preventions, mitigations and consequences. Figure 9.1 shows an example of this.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Risk Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/assessment.html#identification",
+    "href": "content/c2_risk/assessment.html#identification",
+    "title": "Risk Assessment",
+    "section": "",
+    "text": "Figure 9.1: Risk Bow-Tie Method (Source: https://www.juliantalbot.com/post/risk-bow-tie-method)",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Risk Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/assessment.html#analysis",
+    "href": "content/c2_risk/assessment.html#analysis",
+    "title": "Risk Assessment",
+    "section": "Analysis",
+    "text": "Analysis\nOnce the risk are identified, we want to understand\n\nWhy the risk event may happen? Is this a symptom of another risk?\nHow frequently could this happen?\nWhat are the potential consequences?\n\nThis can be done with informal methods such as discussion and recording; as with identification, the bow-tie method may help here. Or a more formal method such as risk modelling (Monte-Carlo, Statistics, etc.)",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Risk Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/assessment.html#risk-evaluation",
+    "href": "content/c2_risk/assessment.html#risk-evaluation",
+    "title": "Risk Assessment",
+    "section": "Risk Evaluation",
+    "text": "Risk Evaluation\nA key concept to assist in risk analysis is that the size of each risk is directly proportional to two key driving factors.\n\nLikelihood. Chance of risk event, for example 10% chance annually\nConsequence. Realised losses, for example £1k-£2k fine depending on impact to surrounding areas.\n\n\n\n\n\n\n\nImportant\n\n\n\n\\[\n    \\text{Risk}\n        = \\text{Likelihood} \\times \\text{Consequence}\n\\]\n\n\nOther words may be used in place of these (for example, likelihood can also be “failure frequency” or “probability”; consequence may be “severity”) but the concept remains fixed.\nUsing the examples above, the upper bound is \\[\n    \\text{Risk}\n        = 0.1 \\times £2k = £200 \\text{ per year.}\n\\] Calculating cost per year, in monetary terms, can be extremely useful as it provides us with an interpretable measure that can be compared across the business.\nThis ensures we don’t overspend resource thinking about catastrophic failures that are \\(1\\) in \\(10^9\\) events and similarly we don’t spend too long with the risk of losing a highly available cheap component when the consequence is trivial.\nMore quantitative approaches exist and they may even consider likelihood before and after mitigation. With such approaches it is not uncommon to see a risk matrix as the one shown in Figure 9.2.\n\n\n\n\n\n\nFigure 9.2: Risk Matrix (Source https://www.haspod.com/blog/paperwork/5x5-risk-matrix)",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Risk Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/treatment.html",
+    "href": "content/c2_risk/treatment.html",
+    "title": "Risk Treatment",
+    "section": "",
+    "text": "We can classify the four types of risk treatments in the following way\n\nTreat (Reduce Likelihood).\n\nApply mitigations to minimise risk value\n\nTerminate (Eliminate Likelihood).\n\nClose down operations to avoid overly high-risk\n\nTransfer (Reduce Consequence).\n\nMove responsibility to a third-party (outsourcing)\n\nTolerate (Accept Consequence)\n\nAccept that the risk sits within the risk appetite bounds\n\n\nFor physical assets, we can maintain, replace, refurbish and more to improve the asset base. These actions are called risk controls or risk mitigations.\nWe will revisit the concept of risk throughout later modules as it is relevant to Whole Life Cost Modelling and Risk-Based Maintenance.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Risk Treatment</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/contingency.html",
+    "href": "content/c2_risk/contingency.html",
+    "title": "Contingency",
+    "section": "",
+    "text": "Readiness\nWe evaluate and improve these plans using the Nertney Wheel.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contingency</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/contingency.html#readiness",
+    "href": "content/c2_risk/contingency.html#readiness",
+    "title": "Contingency",
+    "section": "",
+    "text": "Plant. Is required equipment fit and proper?\nPeople. Are required individuals known and prepared?\nProcedures. Are unambiguous plans documented and ready for use?",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Contingency</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/outsourcing.html",
+    "href": "content/c2_risk/outsourcing.html",
+    "title": "Outsourcing",
+    "section": "",
+    "text": "Definitions\nThere are plenty of example where outsourcing may be appropriate, such as highly skilled work that is only done a few time per year or seasonal work where outsourced labour can meet exceptional demand.\nThe process of this can be shown diagrammatically as a cycle, but suppose we start from the requirements stage. We then need to",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Outsourcing</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/outsourcing.html#definitions",
+    "href": "content/c2_risk/outsourcing.html#definitions",
+    "title": "Outsourcing",
+    "section": "",
+    "text": "Definition\n\n\n\nOutsourcing is a business practise where work is performed by an external provider.\n\n\n\n\n\nDefine requirements\n\nWhat is important and what work is to be completed?\nWhich KPIs should be used to measure performance?\n\nObjective supplier selection\n\nSuppliers should be chosen based on tender application, not previous relationships\n\nPerformance Management\n\nAnalyse work being done and answer many questions, say\n\nWho stores data for KPIs? Who has access?\nHow much oversight is required?\nWho was responsible for safety and training?\n\n\nRelationship Building and Collaboration\n\nHow can the first-party help the third-party? Knowledge-share?\nPotential for future contracts? Extend existing contracts?\n\nRefine Policies\n\nWhat went well and what should be changed next time?",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Outsourcing</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/outsourcing.html#asset-manager-involvement",
+    "href": "content/c2_risk/outsourcing.html#asset-manager-involvement",
+    "title": "Outsourcing",
+    "section": "Asset Manager Involvement",
+    "text": "Asset Manager Involvement\nThis is a clear simplification of the procurement process but it highlights a key need for an asset manager to be in this process. They must ensure clarity of work specification (including asset information requirements) and will also have useful insights to other discussions such as choice of KPI, cost of work done, appropriate risk appetite.\nThis involvement ensures\n\nownership of asset information is retained by the client\nroles and responsibilities are made clear to all involved\ntechnical requirements are clearly communicated to the third-party",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Outsourcing</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/review.html",
+    "href": "content/c2_risk/review.html",
+    "title": "Review",
+    "section": "",
+    "text": "PDCA\nOur role of AM should be summarises by the PDCA cycle\nIt is important to not only focus on short-term outputs as it may make you too result-oriented.\nConsider the four extremes\nThis separation of outcomes and procedures is key for many sectors, even high-level athletes. Losing or winning a single football game is not seen as a true reflection of long-term success, the performance during that game is.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Review</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/review.html#pdca",
+    "href": "content/c2_risk/review.html#pdca",
+    "title": "Review",
+    "section": "",
+    "text": "Plan. Identify opportunity and make a plan\nDo. Implement change on small scale\nCheck. Review effectiveness using data\nAct. Make fact-based decision for next steps\n\nGood outcome implies opportunity to scale\nPoor outcome requires improvements to tested implementation\n\n\n\n\n\n\n\n\n\nDefinition (Loose)\n\n\n\nResults-oriented is focusing on desired outcomes, rather than processes used to get there.\n\n\n\n\nHigh performance without AM is viewed as unsustainable\nHigh performance with AM is therefore viewed as sustainable\nLow performance without AM is seen as underperforming by all\nLow performance wit AM is viewed as promising.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Review</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/review.html#measures-and-indicators",
+    "href": "content/c2_risk/review.html#measures-and-indicators",
+    "title": "Review",
+    "section": "Measures and Indicators",
+    "text": "Measures and Indicators\nWe can categorise asset health indicators in many ways. For example,\n\nOutput Measures\n\nItem cost, service capacity, availability, safety, and stakeholder satisfaction\nValidated against performance metrics\n\nStewardship Measures\n\nAsset condition, remaining life, replacement rate, number of failures\nValidated against asset condition and internal assurance\n\nAM Capability Measures\n\nISO standards compliance, efficiency, use of best practise, clear justification of plans\nValidated against internal and external audit and assurance\n\n\nAll indicators are said to be either lagging, leading or sometimes a combination of the two.\n\n\n\n\n\n\nDefinition\n\n\n\nA leading indicator will help predict future performance.\nWhereas, a lagging indicator will give insight into past outcomes.",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Review</span>"
+    ]
+  },
+  {
+    "objectID": "content/c2_risk/summary.html",
+    "href": "content/c2_risk/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Introduced the concept of risk and then learned how to\n\nassess risk in monetary terms,\ntreat risk depending on risk appetite,\nand make contingency plans for when risk events occur\n\nOutsourcing; risks and benefits of allowing work to be done by a third-party\nImportance of the review stage within AM and which indicators or measures should be used",
+    "crumbs": [
+      "C2: Risk Management, Outsourcing and Review",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html",
+    "href": "content/c3_costing/wholelife.html",
+    "title": "Whole-life Approach",
+    "section": "",
+    "text": "Types of Whole-life Cost\nThe relationship between these can be viewed in Figure 22.2.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html#types-of-whole-life-cost",
+    "href": "content/c3_costing/wholelife.html#types-of-whole-life-cost",
+    "title": "Whole-life Approach",
+    "section": "",
+    "text": "CapEx\n\nCapital expenditure. Initial investment cost.\nFor example: design, land purchase, training, documentation, facilities\n\nOpEx\n\nOperating expenditure. Business as usual costs, repair costs.\nFor example:\n\nOperations (labour, energy, water, raw materials)\nMaintenance (labour, spares, overheads)\nRisk Costs (malfunctions, downtime)\nDisposal (cost of disposal, residual value)\n\n\nTotEx\n\nCombination of OpEx and CapEx.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html#unit-costs",
+    "href": "content/c3_costing/wholelife.html#unit-costs",
+    "title": "Whole-life Approach",
+    "section": "Unit Costs",
+    "text": "Unit Costs\nWith so many costs coming from a variety of source, it can be really useful to standardise these so comparisons can be made and our analyses are consistent over time.\nOne such option is unit costs; for example, cost of water transport per litre provided or cost per mile of a new pipeline. These allow for more interpretable numbers but still consider a range of factors such as direct labour and overheads (say, time waiting for site access).",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html#optimum-life",
+    "href": "content/c3_costing/wholelife.html#optimum-life",
+    "title": "Whole-life Approach",
+    "section": "Optimum Life",
+    "text": "Optimum Life\nOnce we have a consistent measure of whole-life cost across all asset options,\n\n\n\n\n\n\nImportant\n\n\n\nWe make the optimal decision by minimising lowest average annual cost.\n\n\n\n\n\n\n\n\nDefinition (Loose)\n\n\n\nAverage annual cost is the whole-life taken spread over the lifetime of that asset.\n\n\nFor assets that are only needed a predetermined length of time, we consider the optimum economic life, the life that minimises whole-life costs for that duration of time.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html#mean-time-between-failures-mtbf",
+    "href": "content/c3_costing/wholelife.html#mean-time-between-failures-mtbf",
+    "title": "Whole-life Approach",
+    "section": "Mean Time between Failures (MTBF)",
+    "text": "Mean Time between Failures (MTBF)\n\n\n\n\n\n\nDefinition\n\n\n\nMean time between Failures (MTBF) is a performance measure of reliability of an asset or system.\n\n\nThis time may not be constant in the short-term (distribution mains MTBF depend on the weather) or long-term (ageing assets lead to a shorter MTBF) but this is a good metric nevertheless.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/wholelife.html#in-practice",
+    "href": "content/c3_costing/wholelife.html#in-practice",
+    "title": "Whole-life Approach",
+    "section": "In-Practice",
+    "text": "In-Practice\nA whole-life cost analysis in practice would list all costs per category and year with values for each. For example,\n\nInstallation may be £1M - £0 - £0 over 3 years\nRoutine maintenance could be £10k - £10k - £10k over the same 3 years.\nWe then calculate the total cost for each year\nAverage annual cost per year is calculated by summing all costs up to and including that year, and dividing by the number of years considered.\n\nFor the more technical audience, the whole-life cost is the running average of the yearly costs.\nThere are other factors to be considered in this calculation that complicate the calculations.\n\nDiscount rate and interest payments\nChanging business demands (including opportunities)\nInconsistent analysis methods\nCompetency and employee training",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Whole-life Approach</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/amp.html",
+    "href": "content/c3_costing/amp.html",
+    "title": "Asset Management Plan",
+    "section": "",
+    "text": "Rolling AMP Process\nTo achieve planning at several time scales, there is a rolling review and update for each.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Asset Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/amp.html#rolling-amp-process",
+    "href": "content/c3_costing/amp.html#rolling-amp-process",
+    "title": "Asset Management Plan",
+    "section": "",
+    "text": "Short-term. What activities are to be done within the next year?\nMedium-term. What activities need to planned in the next 5 years?\nLong-term. What strategic activities are required?",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Asset Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/amp.html#example-contents",
+    "href": "content/c3_costing/amp.html#example-contents",
+    "title": "Asset Management Plan",
+    "section": "Example Contents",
+    "text": "Example Contents\nIt can be helpful to see an example contents (provided by AMA) with labels that connect to the 6-box model from Figure 1.1.\n\nSummary and Scope (Strategy and Planning)\nAM Strategy and Alignment (Strategy and Planning)\nReview of Previous AMP (Review)\nChanges to Asset Portfolio (Asset Information)\nState of Current Assets (Asset Information)\nFuture Requirements (Lifecycle Delivery)\nDecision Processes (Decision Making)\nPlan - Resources, Outputs, Costs (Strategy and Planning)\nRoadmap (Strategy and Planning)\nContinuous Improvement",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Asset Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/amp.html#templates",
+    "href": "content/c3_costing/amp.html#templates",
+    "title": "Asset Management Plan",
+    "section": "Templates",
+    "text": "Templates\nBy creating whole-life cost templates for specific systems or asset classes we can modularise. That is, the overall plan can be the addition of costs related to each asset listed in the asset portfolio, we call this the base case. The templates inform how granular each asset class should be.\nWe can also standardise risks and improve processes laterally when using consistent language; risks can then be shared via some “Lessons Learned” programme.\nUsing scenario-based whole-life costs allows us to show the modelling implications of funding constraints where the cost is not saved but deferred to a later AMP.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Asset Management Plan</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/info.html",
+    "href": "content/c3_costing/info.html",
+    "title": "Asset Information",
+    "section": "",
+    "text": "AM Decision Scale",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Asset Information</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/info.html#am-decision-scale",
+    "href": "content/c3_costing/info.html#am-decision-scale",
+    "title": "Asset Information",
+    "section": "",
+    "text": "Strategic. Up to 25 years. Fundamental to how the organisation runs\nTactical. Up to a few years. Activities to enable our strategy\nOperational. Up to monthly. Executing business process\nInstant. At event. Trained reactionary actions",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Asset Information</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/info.html#common-challenges",
+    "href": "content/c3_costing/info.html#common-challenges",
+    "title": "Asset Information",
+    "section": "Common Challenges",
+    "text": "Common Challenges\nHere are some example challenges that highlight opportunities to improve the asset information system.\n\nMultiple disconnected systems\nPoor quality data\nHard to find\nUnclear ownership and hard to trust\nMissing or inconsistent standards\nContracts missing key clauses about information handover\nKnowledge loss through retirement",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Asset Information</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/info.html#data-quality",
+    "href": "content/c3_costing/info.html#data-quality",
+    "title": "Asset Information",
+    "section": "Data Quality",
+    "text": "Data Quality\nAs an aside, what do we mean when we say “poor quality” data?\n\nCompleteness. How many missing observations is too many?\nConsistency. Does data from different sources agree?\nUniqueness. Is there a single source of truth, or is it ambiguous?\nValidity. Is the metadata, say the units \\(m\\) or \\(km\\), correct?\nAccuracy. Is the data itself a true representation of reality?\nTimeliness. Does the waiting time for data inhibit decisions?",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Asset Information</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/info.html#best-practices",
+    "href": "content/c3_costing/info.html#best-practices",
+    "title": "Asset Information",
+    "section": "Best Practices",
+    "text": "Best Practices\nTo avoid these challenges, we aim for a positive feedback loop between\n\nStandards\nSystems\nData Management\n\nAll should inform the next item and fulfil the continuous improvement principle of asset management. This can be done with a single unifying asset information strategy instead of several compartmentalised strategies.\nAn example asset information strategy could include\n\nScope\nAlignment to AM Strategy\nPrinciples and Requirements (per process or per role)\nCurrent State of asset data\nChallenges and Gaps\nTarget State of asset data\nImprovement Plan\nGovernance and RACI (Responsible, Accountable, Consulted and Informed)",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Asset Information</span>"
+    ]
+  },
+  {
+    "objectID": "content/c3_costing/summary.html",
+    "href": "content/c3_costing/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Omitted due to time constraints.",
+    "crumbs": [
+      "C3: Whole Life Costing and the AM Plan (AMP)",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/investment_decisions.html",
+    "href": "content/c4_lifecycle/investment_decisions.html",
+    "title": "Investment Decision-Making",
+    "section": "",
+    "text": "Business Case\nUsing this example, we construct the following conceptual business case model",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Investment Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/investment_decisions.html#business-case",
+    "href": "content/c4_lifecycle/investment_decisions.html#business-case",
+    "title": "Investment Decision-Making",
+    "section": "",
+    "text": "Initiation\n\nOutline business case. Benefits? Costs? Risks?\n\nPlanning\n\nFully designed case with several options and clear preference\n\nExecution\n\nActual production of plan, all revisions should keep original plan in mind\n\nCompletion\n\nHandover to operations, benefits should be validated against expectations",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Investment Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/investment_decisions.html#financial-appraisal",
+    "href": "content/c4_lifecycle/investment_decisions.html#financial-appraisal",
+    "title": "Investment Decision-Making",
+    "section": "Financial Appraisal",
+    "text": "Financial Appraisal\nThere are several methods to determine if benefits outweigh costs financially. We focus on Net Present Value (NPV).\n\n\n\n\n\n\nDefinition\n\n\n\nNet Present Value (NPV) is the sum of the Present Value over all years considered.\nPresent Value are the future cash flows, adjusted for some known rate. That is, \\[\n    \\text{Present Value}\n        = \\frac{\\text{Future Value}}{(1 + i)^n}\n\\]\n\n\nThis rate is typically set by the finance department that are more aware of financial trends both internal and external to the organisation.\nThe main takeaway is that\n\n\\(\\text{NPV} &gt; 0 \\implies \\text{Profitable}\\)\n\\(\\text{NPV} = 0 \\implies \\text{Break-even}\\)\n\\(\\text{NPV} &lt; 0 \\implies \\text{Not Profitable}\\)\n\n\nWorked Example\nSuppose we are only considering value lost to inflation, future value is the amount we are expecting at time of agreement\n\nI will pay you £5 in 5 years from today, but it will cost you £4\n\n\\(FV = £5\\)\n\nInflation is set at \\(5\\%\\)\n\n\\((1 + i)^5 = 1.05^5\\)\n\nPresent value is therefore\n\n\\(\\frac{£5}{1.05^5} \\approx £3.92\\)\n\n\nAccepting this scenario for the up-front cost of \\(£4\\) would result in a losing scenario. Note that the naive approach (that \\(£5 &gt; £4\\)) would simply accept and ignore the inflationary rate.\n\n\nPayback Period\nThis toy example does not consider the typical cash-flow of an investment. In reality, we spend a large amount of money (capital) and recuperate those losses over time with revenue.\nThus, we can determine the amount of time required to get our money back on the initial investment.\n\nWhen the discount rate is ignored, this is the payback period\n\nFor example, £1M investment creating £100k annually takes 10 years to pay back\n\nAdjusting for the discount rate leads to the (typically longer) discounted payback period.\n\nAgain, £1M investment creating £100k annually takes longer than 10 years when “adjusting” for the rate",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Investment Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/investment_decisions.html#other-financial-terms",
+    "href": "content/c4_lifecycle/investment_decisions.html#other-financial-terms",
+    "title": "Investment Decision-Making",
+    "section": "Other Financial Terms",
+    "text": "Other Financial Terms\nConsider these terms as potentially relevant to asset managers.\n\nBalance Sheet\n\nLedger that details funding, liabilities and equity.\n\nProfit and Loss (P&L)\n\nIncome statement detailing revenue and expenditure\n\nCash Flow Model\n\nModels and monitors the actual path cash takes through a business\n\nFixed Asset Register\n\nCaptures key asset information (identifiers, cost, owner, risk)\n\nDepreciation\n\nAllows asset managers to spread the cost of ageing of asset life\n\nEBITDA\n\nEarning before interest, tax, depreciation, amortisation",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Investment Decision-Making</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/systems_engineering.html",
+    "href": "content/c4_lifecycle/systems_engineering.html",
+    "title": "Systems Engineering",
+    "section": "",
+    "text": "RAMS\nThe four principles Figure 20.1 aims to capture are\nNote that",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Systems Engineering</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/systems_engineering.html#rams",
+    "href": "content/c4_lifecycle/systems_engineering.html#rams",
+    "title": "Systems Engineering",
+    "section": "",
+    "text": "Reliability\n\nProbability an asset can perform over a specific time period\n\nAvailability\n\nAmount of time an asset can be used to fulfil a purpose\n\nMaintainability\n\nProbability an asset can be maintained over a specific time period\n\nSafety\n\nProbability an asset can perform function without endangering others\n\n\n\n\nReliability is linked to “Mean Time between Failures” (MTBF). Longer is better.\nMaintainability is linked to “Mean Time to Repair” (MTTR). Shorter is better.",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Systems Engineering</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/maintenance.html",
+    "href": "content/c4_lifecycle/maintenance.html",
+    "title": "Maintenance Concepts",
+    "section": "",
+    "text": "Optimisation\nA common question is when should we do maintenance and at what point do we hit diminishing returns. We have several tools for this",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maintenance Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/maintenance.html#optimisation",
+    "href": "content/c4_lifecycle/maintenance.html#optimisation",
+    "title": "Maintenance Concepts",
+    "section": "",
+    "text": "Failure Modes, Effects and Criticality Analysis (FMECA)\n\nInvestigates clear relationships between assets and failures\nOne potential route is that assets exist in systems, so\n\nSystems \\(\\implies\\) Components \\(\\implies\\) Failure Mode\n\nAlternatively,\n\nFunction \\(\\implies\\) Functional failure \\(\\implies\\) Failure Mode\n\n\nFailure Tree Analysis (FTA) and Event Tree Analysis (ETA)\n\nConnects failure modes to consequences. See Figure 9.1.\n\nRule Based Task Allocation\n\nConnects mitigations directly to failure modes\n\nCost Risk Optimisation\n\nFor a specified period of time, how much maintenance should be done?\n\n\n\nOptimisation Technique\nWe have two related overarching techniques that can be used with the previous section.\n\n\n\n\n\n\nRCM\n\n\n\nReliability Centred Maintenance.\nRCM priorities reliability and is agnostic to risk.\n\n\n\n\n\n\n\n\nRBM\n\n\n\nRisk Based Maintenance.\nRBM priorities risk but is agnostic to reliability.\n\n\nThese are related as it is not unbelievable that a reduction in risk would cause and increase in reliability, however, this is not always the case.\nConsider a service reservoir that is active more than \\(99\\%\\) of the time but overlooks a large city (risk event is that it floods).\n\nRCM prioritises other assets as the reliability is already high\nRBM prioritises this asset as it is a “high risk” asset with large consequences",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Maintenance Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/failure.html",
+    "href": "content/c4_lifecycle/failure.html",
+    "title": "Failure Modes",
+    "section": "",
+    "text": "Optimum Maintenance Level\nRecall the terms\nFigure 22.1 shows the relationship between each expenditure and maintenance frequency. For our purpose, “Prevention Cost” is CapEx and “Repair Cost” is OpEx.\nWhat is typically observed is that having no maintenance correlates with high CapEx spending as assets are replaced instead of maintained. Alternatively, too frequent maintenance leads to high OpEx costs and likely wasted efforts. This is shown graphically in Figure 22.2.\nInstead, our goal is to minimise TotEx at the optimum point shown. Due to other contextual information such as budgets and business environments, we may settle for a sub-optimal frequency, but this would need justifying.",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Failure Modes</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/failure.html#optimum-maintenance-level",
+    "href": "content/c4_lifecycle/failure.html#optimum-maintenance-level",
+    "title": "Failure Modes",
+    "section": "",
+    "text": "Operating Expenditure (OpEx)\nCapital Expenditure (CapEx)\nTotal Expenditure (TotEx)\n\n\n\n\n\n\n\nFigure 22.1: Optimal Maintenance Level (Source https://coastapp.com/blog/preventive-maintenance/)\n\n\n\n\n\n\n\n\n\n\n\nFigure 22.2: Average Annual Costs against Maintenance (Source: IAM Anatomy)",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Failure Modes</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/failure.html#work-planning",
+    "href": "content/c4_lifecycle/failure.html#work-planning",
+    "title": "Failure Modes",
+    "section": "Work Planning",
+    "text": "Work Planning\nMaintenance should be included in the business case for the new asset. As with many AM approaches, the plan should be continually improved to help make the implementation better.\nAn advanced plan would include resource planning, missed maintenance guidance and constant feedback and review.\nFor example, missing 1 monthly maintenance activity per year (on accident) may show no difference to the initial plan of 12 per year. Such information is a clear opportunity to reduce work and costs with little change in risk.\nWork planning typically involves\n\nResource prioritisation\nPlanning processes\nHealth and safety\nInventory management\nResource allocation",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Failure Modes</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/inventory.html",
+    "href": "content/c4_lifecycle/inventory.html",
+    "title": "Inventory Management",
+    "section": "",
+    "text": "Inventory management is a common logistical challenge for many organisations. Keeping “spares” can make an organisation more resilient to sudden changes in the market.\nTypes of spares include\n\nConsumable spares\n\nLow cost and low lead time\n\nRepairable spares\n\nVariable cost and variable lead time\n\nStrategic spares\n\nHigh cost, typically bought for life (insurance)\n\n\nThe lead time is of high importance as only ordering when there are no spares will lead to sporadic stocks. Conversely, stocking up too frequently can drive up storage costs.\nAs with maintenance, we need to understand these assets to enforce cost-risk optimisation.",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Inventory Management</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/disposal.html",
+    "href": "content/c4_lifecycle/disposal.html",
+    "title": "Disposal",
+    "section": "",
+    "text": "Justification of Disposal\nThis term is preferred over the “end of life” term but both are still used today.\nReasons for strategic failure modes include",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Disposal</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/disposal.html#justification-of-disposal",
+    "href": "content/c4_lifecycle/disposal.html#justification-of-disposal",
+    "title": "Disposal",
+    "section": "",
+    "text": "Definition\n\n\n\nA Strategic Failure Mode is a type of failure mode where the asset either is unable to performs its required function, or it is not cost effective to do so.\n\n\n\n\n\nCompliance\n\nLegislation changed so the asset is no longer fit-for-purpose?\n\nCondition\n\nAcceptable performance no longer achievable?\n\nObsolescence\n\nUnable to repair due to fleeting parts?\n\nOperational\n\nHas a recent change rendered this asset economically infeasible?\n\nCapacity\n\nIs the capacity mismatched (under or over) to the business requirements?",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Disposal</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/disposal.html#type-of-disposal",
+    "href": "content/c4_lifecycle/disposal.html#type-of-disposal",
+    "title": "Disposal",
+    "section": "Type of Disposal",
+    "text": "Type of Disposal\nWhen an asset has experience a strategic failure mode, how should we proceed?\n\nCan we re-use within organisation?\nCan we sell (or donate) the asset?\nIs recycling an option?\n\nOtherwise, we must dispose of it responsibly.",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Disposal</span>"
+    ]
+  },
+  {
+    "objectID": "content/c4_lifecycle/summary.html",
+    "href": "content/c4_lifecycle/summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "Omitted due to time constraints.",
+    "crumbs": [
+      "C4: Optimising Lifecycle Activities",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]

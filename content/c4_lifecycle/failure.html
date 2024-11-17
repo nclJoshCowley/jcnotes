@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Josh Cowley">
-<meta name="dcterms.date" content="2024-11-17">
 
-<title>IAM Certificate Revision</title>
+<title>Failure Modes – IAM Certificate Revision</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./content/c1_alignment/introduction.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../content/c4_lifecycle/inventory.html" rel="next">
+<link href="../../content/c4_lifecycle/maintenance.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Overview</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/c4_lifecycle/investment_decisions.html">C4: Optimising Lifecycle Activities</a></li><li class="breadcrumb-item"><a href="../../content/c4_lifecycle/failure.html"><span class="chapter-title">Failure Modes</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -97,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IAM Certificate Revision</a> 
+      <a href="../../">IAM Certificate Revision</a> 
         <div class="sidebar-tools-main">
     <a href="mailto:josh.cowley@hotmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
     <a href="https://github.com/nclJoshCowley/jcnotes/iam_certificate" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
@@ -113,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
@@ -128,37 +127,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  <a href="../../content/c1_alignment/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/alignment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Alignment</span></a>
+  <a href="../../content/c1_alignment/alignment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Alignment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/demand.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Demand Analysis</span></a>
+  <a href="../../content/c1_alignment/demand.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Demand Analysis</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/ampolicy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">AM Policy</span></a>
+  <a href="../../content/c1_alignment/ampolicy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">AM Policy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/samp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SAMP</span></a>
+  <a href="../../content/c1_alignment/samp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SAMP</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/criticality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Criticality</span></a>
+  <a href="../../content/c1_alignment/criticality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Criticality</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c1_alignment/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="../../content/c1_alignment/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
       </ul>
@@ -174,37 +173,37 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  <a href="../../content/c2_risk/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/assessment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk Assessment</span></a>
+  <a href="../../content/c2_risk/assessment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk Assessment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/treatment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk Treatment</span></a>
+  <a href="../../content/c2_risk/treatment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk Treatment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/contingency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contingency</span></a>
+  <a href="../../content/c2_risk/contingency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contingency</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/outsourcing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Outsourcing</span></a>
+  <a href="../../content/c2_risk/outsourcing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Outsourcing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Review</span></a>
+  <a href="../../content/c2_risk/review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Review</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c2_risk/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="../../content/c2_risk/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
       </ul>
@@ -220,68 +219,68 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c3_costing/wholelife.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Whole-life Approach</span></a>
+  <a href="../../content/c3_costing/wholelife.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Whole-life Approach</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c3_costing/amp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Management Plan</span></a>
+  <a href="../../content/c3_costing/amp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Management Plan</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c3_costing/info.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Information</span></a>
+  <a href="../../content/c3_costing/info.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Information</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c3_costing/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="../../content/c3_costing/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">C4: Optimising Lifecycle Activities</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/investment_decisions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Investment Decision-Making</span></a>
+  <a href="../../content/c4_lifecycle/investment_decisions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Investment Decision-Making</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/systems_engineering.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Systems Engineering</span></a>
+  <a href="../../content/c4_lifecycle/systems_engineering.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Systems Engineering</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/maintenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Maintenance Concepts</span></a>
+  <a href="../../content/c4_lifecycle/maintenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Maintenance Concepts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/failure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Failure Modes</span></a>
+  <a href="../../content/c4_lifecycle/failure.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Failure Modes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/inventory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Inventory Management</span></a>
+  <a href="../../content/c4_lifecycle/inventory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Inventory Management</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/disposal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Disposal</span></a>
+  <a href="../../content/c4_lifecycle/disposal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Disposal</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/c4_lifecycle/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  <a href="../../content/c4_lifecycle/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
       </ul>
@@ -296,39 +295,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
-  <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course Structure</a></li>
-  <li><a href="#iso-standards" id="toc-iso-standards" class="nav-link" data-scroll-target="#iso-standards">ISO Standards</a></li>
-  </ul></li>
+  <li><a href="#optimum-maintenance-level" id="toc-optimum-maintenance-level" class="nav-link active" data-scroll-target="#optimum-maintenance-level">Optimum Maintenance Level</a></li>
+  <li><a href="#work-planning" id="toc-work-planning" class="nav-link" data-scroll-target="#work-planning">Work Planning</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/c4_lifecycle/investment_decisions.html">C4: Optimising Lifecycle Activities</a></li><li class="breadcrumb-item"><a href="../../content/c4_lifecycle/failure.html"><span class="chapter-title">Failure Modes</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">IAM Certificate Revision</h1>
+<h1 class="title"><span class="chapter-title">Failure Modes</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p><a href="mailto:josh.cowley@hotmail.com">Josh Cowley</a> </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 17, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -338,33 +322,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level1 unnumbered">
-<h1 class="unnumbered">Overview</h1>
-<p>Revision material provided to assist in understanding the content within the <a href="https://theiam.org/professional-development/qualifications/iam-certificate/">IAM Certificate</a> provided by the Institute of Asset Management (IAM).</p>
-<section id="course-structure" class="level2">
-<h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
-<p>The associated exam, “Principles of Asset Management” is partitioned into 5 modules with questions weighted for each; 20 questions for M1 and 10 questions each for M2 through M5.</p>
-<p>This revision guide mirrors the four chapters C1, C2, C3 and C4 that were supplied by the endorsed trainer. That is,</p>
+<p>Task selection and Rule-Based Task Allocation (RBTA) classifies failure modes into the following categories, then assigns tasks based on each.</p>
 <ul>
-<li><p>C1: Alignment, Asset Management Policies and Strategies</p></li>
-<li><p>C2: Risk Management, Outsourcing and Review</p></li>
-<li><p>C3: Whole Life Costing and the Asset Management Plan</p></li>
-<li><p>C4: Optimising Lifecycle Activities</p></li>
+<li><p><strong>Prevention - Failure (P-F)</strong></p>
+<ul>
+<li><p>Predictable failure based on deteriorating asset condition</p></li>
+<li><p><strong>Task</strong>? Condition-based</p></li>
+</ul></li>
+<li><p><strong>Usage-Related</strong></p>
+<ul>
+<li><p>Failure caused by usage of the asset</p></li>
+<li><p><strong>Task</strong>? Preventative maintenance</p></li>
+</ul></li>
+<li><p><strong>Hidden</strong></p>
+<ul>
+<li><p>Root-cause is hidden</p></li>
+<li><p><strong>Task</strong>? Failure-finding</p></li>
+</ul></li>
+<li><p><strong>Not influenced by maintenance</strong></p>
+<ul>
+<li><p>For example, third-party damage</p></li>
+<li><p><strong>Task</strong>? Redesign</p></li>
+</ul></li>
 </ul>
+<section id="optimum-maintenance-level" class="level2">
+<h2 class="anchored" data-anchor-id="optimum-maintenance-level">Optimum Maintenance Level</h2>
+<p>Recall the terms</p>
+<ul>
+<li><p>Operating Expenditure (OpEx)</p></li>
+<li><p>Capital Expenditure (CapEx)</p></li>
+<li><p>Total Expenditure (TotEx)</p></li>
+</ul>
+<div id="fig-optimal_maintenance" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-optimal_maintenance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../images/optimal_maintenance.avif" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-optimal_maintenance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22.1: Optimal Maintenance Level (Source <a href="https://coastapp.com/blog/preventive-maintenance/" class="uri">https://coastapp.com/blog/preventive-maintenance/</a>)
+</figcaption>
+</figure>
+</div>
+<p><a href="#fig-optimal_maintenance" class="quarto-xref">Figure&nbsp;<span>22.1</span></a> shows the relationship between each expenditure and maintenance frequency. For our purpose, “Prevention Cost” is CapEx and “Repair Cost” is OpEx.</p>
+<p>What is typically observed is that having no maintenance correlates with high CapEx spending as assets are replaced instead of maintained. Alternatively, too frequent maintenance leads to high OpEx costs and likely wasted efforts. This is shown graphically in <a href="#fig-iam_maintenance_costs" class="quarto-xref">Figure&nbsp;<span>22.2</span></a>.</p>
+<div id="fig-iam_maintenance_costs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-iam_maintenance_costs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../images/iam_maintenance_costs.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-iam_maintenance_costs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;22.2: Average Annual Costs against Maintenance (Source: IAM Anatomy)
+</figcaption>
+</figure>
+</div>
+<p>Instead, our goal is to minimise TotEx at the optimum point shown. Due to other contextual information such as budgets and business environments, we may settle for a sub-optimal frequency, but this would need justifying.</p>
 </section>
-<section id="iso-standards" class="level2">
-<h2 class="anchored" data-anchor-id="iso-standards">ISO Standards</h2>
-<p>The following ISO standards are relevant to these materials.</p>
+<section id="work-planning" class="level2">
+<h2 class="anchored" data-anchor-id="work-planning">Work Planning</h2>
+<p>Maintenance should be included in the business case for the new asset. As with many AM approaches, the plan should be continually improved to help make the implementation better.</p>
+<p>An advanced plan would include resource planning, missed maintenance guidance and constant feedback and review.</p>
+<p>For example, missing 1 monthly maintenance activity per year (on accident) may show no difference to the initial plan of 12 per year. Such information is a clear opportunity to reduce work and costs with little change in risk.</p>
+<p>Work planning typically involves</p>
 <ul>
-<li><p><strong>ISO 55000</strong>. Definitions</p></li>
-<li><p><strong>ISO 55001</strong>. Requirements</p></li>
-<li><p><strong>ISO 55002</strong>. Guidelines</p></li>
-<li><p><strong>ISO 31000</strong>. Risk Management Guidelines</p></li>
+<li><p>Resource prioritisation</p></li>
+<li><p>Planning processes</p></li>
+<li><p>Health and safety</p></li>
+<li><p><a href="inventory.html"><em>Inventory management</em></a></p></li>
+<li><p>Resource allocation</p></li>
 </ul>
-<!-- Links -->
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -790,10 +817,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../content/c4_lifecycle/maintenance.html" class="pagination-link" aria-label="Maintenance Concepts">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Maintenance Concepts</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./content/c1_alignment/introduction.html" class="pagination-link" aria-label="Introduction">
-        <span class="nav-page-text"><span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/c4_lifecycle/inventory.html" class="pagination-link" aria-label="Inventory Management">
+        <span class="nav-page-text"><span class="chapter-title">Inventory Management</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

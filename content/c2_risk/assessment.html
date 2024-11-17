@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.557">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Azure - Describe Cloud Concepts</title>
+<title>Risk Assessment – IAM Certificate Revision</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/az900_azure_fundamentals/az900_02_cloud_benefits.html" rel="next">
-<link href="../../index.html" rel="prev">
+<link href="../../content/c2_risk/treatment.html" rel="next">
+<link href="../../content/c2_risk/introduction.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -78,13 +107,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/az900_azure_fundamentals/az900_01_cloud_concepts.html">Azure Fundamentals</a></li><li class="breadcrumb-item"><a href="../../content/az900_azure_fundamentals/az900_01_cloud_concepts.html"><span class="chapter-title">Describe Cloud Concepts</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/c2_risk/introduction.html">C2: Risk Management, Outsourcing and Review</a></li><li class="breadcrumb-item"><a href="../../content/c2_risk/assessment.html"><span class="chapter-title">Risk Assessment</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -96,10 +125,10 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">Azure</a> 
+      <a href="../../">IAM Certificate Revision</a> 
         <div class="sidebar-tools-main">
     <a href="mailto:josh.cowley@hotmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
-    <a href="https://github.com/nclJoshCowley/jcnotes/azure" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/nclJoshCowley/jcnotes/iam_certificate" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
@@ -118,26 +147,169 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Azure Fundamentals</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">C1: Alignment, Policies and Strategies</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/az900_azure_fundamentals/az900_01_cloud_concepts.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Describe Cloud Concepts</span></a>
+  <a href="../../content/c1_alignment/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/az900_azure_fundamentals/az900_02_cloud_benefits.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Describe Cloud Benefits</span></a>
+  <a href="../../content/c1_alignment/alignment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Alignment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/az900_azure_fundamentals/az900_03_cloud_service_types.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Describe Cloud Service Types</span></a>
+  <a href="../../content/c1_alignment/demand.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Demand Analysis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c1_alignment/ampolicy.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">AM Policy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c1_alignment/samp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SAMP</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c1_alignment/criticality.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Criticality</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c1_alignment/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">C2: Risk Management, Outsourcing and Review</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/assessment.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Risk Assessment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/treatment.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Risk Treatment</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/contingency.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Contingency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/outsourcing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Outsourcing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/review.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c2_risk/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">C3: Whole Life Costing and the AM Plan (AMP)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c3_costing/wholelife.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Whole-life Approach</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c3_costing/amp.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Management Plan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c3_costing/info.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Asset Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c3_costing/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">C4: Optimising Lifecycle Activities</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/investment_decisions.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Investment Decision-Making</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/systems_engineering.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Systems Engineering</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/maintenance.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Maintenance Concepts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/failure.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Failure Modes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/inventory.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Inventory Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/disposal.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Disposal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/c4_lifecycle/summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Summary</span></a>
   </div>
 </li>
       </ul>
@@ -152,19 +324,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-is-cloud-computing" id="toc-what-is-cloud-computing" class="nav-link active" data-scroll-target="#what-is-cloud-computing">What is Cloud Computing</a></li>
-  <li><a href="#shared-responsibility-model" id="toc-shared-responsibility-model" class="nav-link" data-scroll-target="#shared-responsibility-model">Shared Responsibility Model</a></li>
-  <li><a href="#cloud-models" id="toc-cloud-models" class="nav-link" data-scroll-target="#cloud-models">Cloud Models</a></li>
-  <li><a href="#consumption-based-model" id="toc-consumption-based-model" class="nav-link" data-scroll-target="#consumption-based-model">Consumption-based Model</a></li>
+  <li><a href="#identification" id="toc-identification" class="nav-link active" data-scroll-target="#identification">Identification</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#risk-evaluation" id="toc-risk-evaluation" class="nav-link" data-scroll-target="#risk-evaluation">Risk Evaluation</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/az900_azure_fundamentals/az900_01_cloud_concepts.html">Azure Fundamentals</a></li><li class="breadcrumb-item"><a href="../../content/az900_azure_fundamentals/az900_01_cloud_concepts.html"><span class="chapter-title">Describe Cloud Concepts</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/c2_risk/introduction.html">C2: Risk Management, Outsourcing and Review</a></li><li class="breadcrumb-item"><a href="../../content/c2_risk/assessment.html"><span class="chapter-title">Risk Assessment</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Describe Cloud Concepts</span></h1>
+<h1 class="title"><span class="chapter-title">Risk Assessment</span></h1>
 </div>
 
 
@@ -181,71 +352,72 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="identification" class="level2">
+<h2 class="anchored" data-anchor-id="identification">Identification</h2>
+<p>We can identify risks using formal or informal methods. For example, a Hazard and Operability Study (HAZOP) where experience individuals attempt to exhaustively list all potential hazards.</p>
+<p>In either case, identifying risks should be systematic, well-defined and linked to objectives.</p>
+<p>To further discern risks from opportunities, we can use tree analysis (event A leads to event B and so on) for before and after the event. This analysis is commonly called the Bow-Tie Method and can help with identifying risks and their preventions, mitigations and consequences. <a href="#fig-risk_bowtie" class="quarto-xref">Figure&nbsp;<span>9.1</span></a> shows an example of this.</p>
+<div id="fig-risk_bowtie" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-risk_bowtie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../images/risk_bowtie.webp" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-risk_bowtie-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9.1: Risk Bow-Tie Method (Source: <a href="https://www.juliantalbot.com/post/risk-bow-tie-method" class="uri">https://www.juliantalbot.com/post/risk-bow-tie-method</a>)
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<p>Once the risk are identified, we want to understand</p>
+<ul>
+<li><p>Why the risk event may happen? Is this a symptom of another risk?</p></li>
+<li><p>How frequently could this happen?</p></li>
+<li><p>What are the potential consequences?</p></li>
+</ul>
+<p>This can be done with informal methods such as discussion and recording; as with identification, the bow-tie method may help here. Or a more formal method such as risk modelling (Monte-Carlo, Statistics, etc.)</p>
+</section>
+<section id="risk-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="risk-evaluation">Risk Evaluation</h2>
+<p>A key concept to assist in risk analysis is that the size of each risk is directly proportional to two key driving factors.</p>
+<ul>
+<li><p><strong>Likelihood</strong>. Chance of risk event, for example 10% chance annually</p></li>
+<li><p><strong>Consequence</strong>. Realised losses, for example £1k-£2k fine depending on impact to surrounding areas.</p></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Source
+Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://learn.microsoft.com/en-gb/training/modules/describe-cloud-compute/" class="uri">https://learn.microsoft.com/en-gb/training/modules/describe-cloud-compute/</a></p>
+<p><span class="math display">\[
+    \text{Risk}
+        = \text{Likelihood} \times \text{Consequence}
+\]</span></p>
 </div>
 </div>
-<section id="what-is-cloud-computing" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-cloud-computing">What is Cloud Computing</h2>
-<p>Cloud computing is delivery of computing services including</p>
-<ul>
-<li><p>virtual machines (VMs),</p></li>
-<li><p>storage,</p></li>
-<li><p>databases,</p></li>
-<li><p>Internet of Things (IoT),</p></li>
-<li><p>Machine Learning (ML),</p></li>
-<li><p>Artificial Intelligence (AI).</p></li>
-</ul>
-<p>The benefits of this approach is to allow scaling up and down to meet demand.</p>
-</section>
-<section id="shared-responsibility-model" class="level2">
-<h2 class="anchored" data-anchor-id="shared-responsibility-model">Shared Responsibility Model</h2>
-<p>Consider a consumer of cloud service provider. Responsibility of maintenance and security of computational equipment can be classified as</p>
-<ul>
-<li><p><strong>Consumer Responsibility</strong>: on-premises equipment is maintained by consumer’s IT department,</p></li>
-<li><p><strong>Shared Responsibility</strong>: cloud provider responsible for physical systems stored separate to consumer’s location; consumer responsible for data stored on servers and access security.</p></li>
-</ul>
-<p>These shifts vary by situation and motivate these terms to be defined later.</p>
-<ul>
-<li><p>Infrastructure as a Service (IaaS),</p></li>
-<li><p>Platform as a Service (Paas),</p></li>
-<li><p>Software as a Service (Saas).</p></li>
-</ul>
-<p>Shared responsibility model is best seen in <a href="az900_03_cloud_service_types.html#fig-shared-responsibility-model" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>.</p>
-</section>
-<section id="cloud-models" class="level2">
-<h2 class="anchored" data-anchor-id="cloud-models">Cloud Models</h2>
-<p>Cloud models, determining the type of resources available, are classified into three main groups</p>
-<ol type="1">
-<li><p><strong>Private</strong>: owned and used by a single entity, greater cost and benefits the few,</p></li>
-<li><p><strong>Public</strong>: controlled by a third-party and anyone can purchase compute,</p></li>
-<li><p><strong>Hybrid</strong>: combination of the two for advantages of both, public works for surge demand and private brings extra security.</p></li>
-</ol>
-<p>One could also include a multi-cloud type where several public cloud models are combined.</p>
-<p>Azure provides a solution for varying business contexts,</p>
-<blockquote class="blockquote">
-<p>Azure Arc is a set of technologies that helps manage your cloud environment.</p>
-</blockquote>
-</section>
-<section id="consumption-based-model" class="level2">
-<h2 class="anchored" data-anchor-id="consumption-based-model">Consumption-based Model</h2>
-<p>Consider two types of business expenditure, captial expenditure (CapEx) and operational expenditure (OpEx). Cloud computing can be an example of OpEx as you only pay for what you use and there are usually no upfront costs. This allows you to</p>
-<blockquote class="blockquote">
-<ol type="1">
-<li><p>Plan and manage your operating costs.</p></li>
-<li><p>Run your infrastructure more efficiently.</p></li>
-<li><p>Scale as your business needs change.</p></li>
-</ol>
-</blockquote>
+<p>Other words may be used in place of these (for example, likelihood can also be <em>“failure frequency”</em> or “<em>probability</em>”; consequence may be <em>“severity”</em>) but the concept remains fixed.</p>
+<p>Using the examples above, the upper bound is <span class="math display">\[
+    \text{Risk}
+        = 0.1 \times £2k = £200 \text{ per year.}
+\]</span> Calculating cost per year, in monetary terms, can be extremely useful as it provides us with an interpretable measure that can be compared across the business.</p>
+<p>This ensures we don’t overspend resource thinking about catastrophic failures that are <span class="math inline">\(1\)</span> in <span class="math inline">\(10^9\)</span> events and similarly we don’t spend too long with the risk of losing a highly available cheap component when the consequence is trivial.</p>
+<p>More quantitative approaches exist and they may even consider likelihood before and after mitigation. With such approaches it is not uncommon to see a risk matrix as the one shown in <a href="#fig-risk_matrix" class="quarto-xref">Figure&nbsp;<span>9.2</span></a>.</p>
+<div id="fig-risk_matrix" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-risk_matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../../images/risk_matrix.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-risk_matrix-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9.2: Risk Matrix (Source <a href="https://www.haspod.com/blog/paperwork/5x5-risk-matrix" class="uri">https://www.haspod.com/blog/paperwork/5x5-risk-matrix</a>)
+</figcaption>
+</figure>
+</div>
 
 
 </section>
@@ -286,18 +458,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -329,7 +490,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -337,7 +520,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -662,13 +845,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../index.html" class="pagination-link" aria-label="Overview">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Overview</span>
+      <a href="../../content/c2_risk/introduction.html" class="pagination-link" aria-label="Introduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Introduction</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/az900_azure_fundamentals/az900_02_cloud_benefits.html" class="pagination-link" aria-label="Describe Cloud Benefits">
-        <span class="nav-page-text"><span class="chapter-title">Describe Cloud Benefits</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/c2_risk/treatment.html" class="pagination-link" aria-label="Risk Treatment">
+        <span class="nav-page-text"><span class="chapter-title">Risk Treatment</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
