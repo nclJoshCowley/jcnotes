@@ -1,9 +1,9 @@
-# Key Takeaways
+# Summary
 
 * [*Introduced*](introduction.html) the meaning of an *asset* and
   coordinated activity known as *asset management*
 
-* [*Alignment*](alignment.html); the principle that AM objectives are
+* [*Alignment*](alignment.html); principle that AM objectives are
   consistent with organisational objectives
   
 * Asset strategies should be able to deal with uncertainty and ever-changing
