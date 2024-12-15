@@ -19,9 +19,9 @@ These can be found directly from GFMAM, or in the [IAM Anatomy][iam_anatomy]
 Note that these are coloured with the 10-box colour model and not the 6-box
   conceptual model shown in @fig-6box.
   
-For maturiy, each subject is quantified on a 5-point scale,
+For maturity, each subject is quantified on a 5-point scale,
 
-* **0: Incompetent**
+* **0: Innocent**
 
 * **1: Aware**
 
